@@ -1,0 +1,1501 @@
+Patient_ID,Name,Age,Gender,Department,Diagnosis,Treatment,Bill_Amount,Region,Admission_Date,Discharge_Date
+P1000,Mary,52,Female,General Medicine,Diabetes,Therapy,66762,North,2025-01-01,2025-01-02
+P1001,John,15,Female,Oncology,Diabetes,Chemotherapy,47100,West,2025-01-02,2025-01-03
+P1002,David,72,Male,Cardiology,Hypertension,Medication,77398,South,2025-01-03,2025-01-04
+P1003,Sophia,61,Female,Neurology,Flu,Medication,62983,East,2025-01-04,2025-01-05
+P1004,Sophia,21,Male,Neurology,Diabetes,Chemotherapy,18797,East,2025-01-05,2025-01-06
+P1005,Alex,83,Male,General Medicine,Asthma,Therapy,30948,North,2025-01-06,2025-01-07
+P1006,Mary,87,Male,Cardiology,Asthma,Medication,26672,North,2025-01-07,2025-01-08
+P1007,James,75,Male,Pediatrics,Migraine,Therapy,43374,South,2025-01-08,2025-01-09
+P1008,Mary,75,Female,Cardiology,Diabetes,Medication,8157,South,2025-01-09,2025-01-10
+P1009,Isabella,88,Female,Pediatrics,Asthma,Surgery,84886,South,2025-01-10,2025-01-11
+P1010,Michael,24,Male,Orthopedics,Migraine,Observation,25925,West,2025-01-11,2025-01-12
+P1011,John,3,Male,Orthopedics,Diabetes,Chemotherapy,27185,East,2025-01-12,2025-01-13
+P1012,John,22,Male,Orthopedics,Hypertension,Observation,25078,West,2025-01-13,2025-01-14
+P1013,Mary,53,Male,Cardiology,Flu,Therapy,29331,West,2025-01-14,2025-01-15
+P1014,Sophia,2,Female,General Medicine,Covid-19,Observation,8406,South,2025-01-15,2025-01-16
+P1015,Sophia,88,Male,Pediatrics,Cancer,Observation,61913,East,2025-01-16,2025-01-17
+P1016,James,30,Male,Cardiology,Flu,Observation,54528,South,2025-01-17,2025-01-18
+P1017,Isabella,38,Male,Orthopedics,Diabetes,Observation,7787,East,2025-01-18,2025-01-19
+P1018,John,2,Male,Neurology,Diabetes,Chemotherapy,34160,East,2025-01-19,2025-01-20
+P1019,James,64,Male,Orthopedics,Flu,Surgery,76258,South,2025-01-20,2025-01-21
+P1020,Sophia,60,Female,General Medicine,Hypertension,Surgery,61004,North,2025-01-21,2025-01-22
+P1021,James,21,Female,Orthopedics,Fracture,Observation,60220,West,2025-01-22,2025-01-23
+P1022,Michael,33,Female,Oncology,Diabetes,Surgery,35201,East,2025-01-23,2025-01-24
+P1023,Sophia,76,Female,General Medicine,Asthma,Surgery,83800,South,2025-01-24,2025-01-25
+P1024,Olivia,58,Female,Neurology,Fracture,Chemotherapy,18174,West,2025-01-25,2025-01-26
+P1025,Isabella,22,Male,Pediatrics,Migraine,Observation,84060,West,2025-01-26,2025-01-27
+P1026,David,89,Female,Orthopedics,Migraine,Therapy,24374,South,2025-01-27,2025-01-28
+P1027,John,49,Male,General Medicine,Covid-19,Observation,44142,North,2025-01-28,2025-01-29
+P1028,Alex,59,Female,Pediatrics,Migraine,Surgery,98320,North,2025-01-29,2025-01-30
+P1029,Michael,42,Female,Neurology,Migraine,Therapy,65660,South,2025-01-30,2025-01-31
+P1030,Emma,60,Female,Oncology,Cancer,Surgery,18102,North,2025-01-31,2025-02-01
+P1031,David,80,Female,General Medicine,Flu,Surgery,89301,West,2025-02-01,2025-02-02
+P1032,Alex,15,Male,Neurology,Migraine,Medication,26431,South,2025-02-02,2025-02-03
+P1033,Sophia,62,Female,Neurology,Diabetes,Medication,94877,East,2025-02-03,2025-02-04
+P1034,Emma,62,Male,Cardiology,Flu,Medication,29692,South,2025-02-04,2025-02-05
+P1035,Mary,47,Female,Pediatrics,Diabetes,Surgery,47042,North,2025-02-05,2025-02-06
+P1036,Mary,62,Female,Cardiology,Flu,Observation,43020,West,2025-02-06,2025-02-07
+P1037,Michael,51,Female,Neurology,Diabetes,Observation,65272,West,2025-02-07,2025-02-08
+P1038,Mary,55,Male,General Medicine,Cancer,Surgery,59262,East,2025-02-08,2025-02-09
+P1039,Emma,64,Male,Orthopedics,Diabetes,Medication,50606,South,2025-02-09,2025-02-10
+P1040,Emma,3,Female,Oncology,Fracture,Surgery,81621,North,2025-02-10,2025-02-11
+P1041,Isabella,51,Female,Oncology,Fracture,Observation,26059,East,2025-02-11,2025-02-12
+P1042,David,7,Male,Cardiology,Diabetes,Observation,34242,South,2025-02-12,2025-02-13
+P1043,John,21,Male,Orthopedics,Fracture,Chemotherapy,70169,North,2025-02-13,2025-02-14
+P1044,Olivia,73,Female,Cardiology,Covid-19,Observation,80699,North,2025-02-14,2025-02-15
+P1045,James,39,Female,Oncology,Migraine,Chemotherapy,22254,West,2025-02-15,2025-02-16
+P1046,Mary,18,Male,Pediatrics,Migraine,Surgery,4472,West,2025-02-16,2025-02-17
+P1047,Michael,4,Female,Oncology,Flu,Observation,71331,West,2025-02-17,2025-02-18
+P1048,Mary,89,Male,Oncology,Covid-19,Chemotherapy,42373,North,2025-02-18,2025-02-19
+P1049,James,60,Female,Orthopedics,Hypertension,Observation,95161,South,2025-02-19,2025-02-20
+P1050,David,14,Female,Cardiology,Asthma,Chemotherapy,10403,South,2025-02-20,2025-02-21
+P1051,Isabella,9,Male,Neurology,Hypertension,Observation,3520,South,2025-02-21,2025-02-22
+P1052,Emma,53,Male,General Medicine,Migraine,Observation,42255,East,2025-02-22,2025-02-23
+P1053,Isabella,2,Female,Neurology,Fracture,Therapy,86456,East,2025-02-23,2025-02-24
+P1054,Sophia,84,Male,Pediatrics,Hypertension,Surgery,87488,West,2025-02-24,2025-02-25
+P1055,Mary,60,Female,Pediatrics,Fracture,Surgery,46148,West,2025-02-25,2025-02-26
+P1056,John,71,Male,Cardiology,Cancer,Observation,10016,South,2025-02-26,2025-02-27
+P1057,Sophia,44,Male,Neurology,Flu,Chemotherapy,2896,West,2025-02-27,2025-02-28
+P1058,David,8,Male,Oncology,Hypertension,Medication,84582,South,2025-02-28,2025-03-01
+P1059,Mary,47,Male,Orthopedics,Diabetes,Chemotherapy,19629,South,2025-03-01,2025-03-02
+P1060,Sophia,35,Female,Cardiology,Flu,Observation,2091,East,2025-03-02,2025-03-03
+P1061,Mary,78,Female,Cardiology,Flu,Surgery,11803,South,2025-03-03,2025-03-04
+P1062,Michael,81,Male,Neurology,Migraine,Chemotherapy,31061,West,2025-03-04,2025-03-05
+P1063,David,36,Female,General Medicine,Diabetes,Therapy,72219,South,2025-03-05,2025-03-06
+P1064,Olivia,50,Female,Pediatrics,Fracture,Observation,92608,West,2025-03-06,2025-03-07
+P1065,Emma,4,Female,Oncology,Asthma,Chemotherapy,86731,South,2025-03-07,2025-03-08
+P1066,Alex,2,Female,Orthopedics,Cancer,Chemotherapy,7814,North,2025-03-08,2025-03-09
+P1067,Emma,6,Female,Pediatrics,Asthma,Therapy,20123,East,2025-03-09,2025-03-10
+P1068,Emma,54,Female,Oncology,Migraine,Medication,68175,East,2025-03-10,2025-03-11
+P1069,Sophia,4,Male,Cardiology,Hypertension,Medication,97326,South,2025-03-11,2025-03-12
+P1070,David,54,Female,General Medicine,Hypertension,Chemotherapy,65582,West,2025-03-12,2025-03-13
+P1071,Mary,63,Male,Cardiology,Hypertension,Observation,84124,South,2025-03-13,2025-03-14
+P1072,Isabella,18,Female,General Medicine,Asthma,Therapy,33630,East,2025-03-14,2025-03-15
+P1073,Alex,44,Male,Neurology,Fracture,Medication,52256,West,2025-03-15,2025-03-16
+P1074,James,34,Female,Oncology,Asthma,Chemotherapy,98124,North,2025-03-16,2025-03-17
+P1075,Sophia,74,Female,Pediatrics,Diabetes,Observation,26792,North,2025-03-17,2025-03-18
+P1076,Alex,62,Female,Cardiology,Hypertension,Medication,86706,West,2025-03-18,2025-03-19
+P1077,Olivia,14,Male,General Medicine,Flu,Surgery,69774,South,2025-03-19,2025-03-20
+P1078,Michael,48,Female,General Medicine,Covid-19,Chemotherapy,2969,East,2025-03-20,2025-03-21
+P1079,David,15,Male,Cardiology,Diabetes,Therapy,54447,West,2025-03-21,2025-03-22
+P1080,James,72,Male,Pediatrics,Fracture,Observation,23034,South,2025-03-22,2025-03-23
+P1081,Sophia,78,Female,Oncology,Diabetes,Chemotherapy,64120,West,2025-03-23,2025-03-24
+P1082,Emma,87,Female,Neurology,Fracture,Medication,49374,West,2025-03-24,2025-03-25
+P1083,John,62,Female,Neurology,Diabetes,Chemotherapy,50208,East,2025-03-25,2025-03-26
+P1084,Sophia,40,Male,Orthopedics,Asthma,Chemotherapy,75053,North,2025-03-26,2025-03-27
+P1085,John,85,Male,Orthopedics,Covid-19,Medication,68844,North,2025-03-27,2025-03-28
+P1086,Emma,80,Female,Orthopedics,Cancer,Surgery,49638,North,2025-03-28,2025-03-29
+P1087,Michael,82,Female,Pediatrics,Cancer,Observation,54802,North,2025-03-29,2025-03-30
+P1088,David,53,Female,Oncology,Hypertension,Medication,48138,East,2025-03-30,2025-03-31
+P1089,Mary,24,Male,Oncology,Asthma,Chemotherapy,78749,South,2025-03-31,2025-04-01
+P1090,Sophia,26,Male,Orthopedics,Diabetes,Chemotherapy,3219,West,2025-04-01,2025-04-02
+P1091,Isabella,89,Female,Orthopedics,Fracture,Therapy,23390,East,2025-04-02,2025-04-03
+P1092,Emma,60,Female,Pediatrics,Diabetes,Chemotherapy,77736,North,2025-04-03,2025-04-04
+P1093,Sophia,41,Male,Orthopedics,Asthma,Medication,37009,North,2025-04-04,2025-04-05
+P1094,Olivia,29,Female,Neurology,Cancer,Therapy,43034,East,2025-04-05,2025-04-06
+P1095,Michael,15,Female,Cardiology,Covid-19,Chemotherapy,92741,West,2025-04-06,2025-04-07
+P1096,Olivia,45,Male,Neurology,Covid-19,Medication,19287,East,2025-04-07,2025-04-08
+P1097,Alex,65,Male,Neurology,Cancer,Observation,49345,West,2025-04-08,2025-04-09
+P1098,David,89,Female,General Medicine,Fracture,Observation,58432,East,2025-04-09,2025-04-10
+P1099,Alex,71,Female,Cardiology,Hypertension,Chemotherapy,92624,South,2025-04-10,2025-04-11
+P1100,Sophia,9,Male,Neurology,Cancer,Observation,92159,North,2025-04-11,2025-04-12
+P1101,James,88,Male,Cardiology,Cancer,Chemotherapy,33562,South,2025-04-12,2025-04-13
+P1102,James,1,Male,Neurology,Migraine,Therapy,76213,East,2025-04-13,2025-04-14
+P1103,David,8,Male,Pediatrics,Hypertension,Observation,87763,South,2025-04-14,2025-04-15
+P1104,Isabella,88,Male,Pediatrics,Flu,Therapy,96256,West,2025-04-15,2025-04-16
+P1105,Michael,63,Female,Orthopedics,Cancer,Therapy,60961,East,2025-04-16,2025-04-17
+P1106,Isabella,11,Male,Pediatrics,Asthma,Therapy,75918,West,2025-04-17,2025-04-18
+P1107,Michael,81,Male,Cardiology,Asthma,Surgery,67172,South,2025-04-18,2025-04-19
+P1108,Emma,8,Female,General Medicine,Migraine,Medication,35332,North,2025-04-19,2025-04-20
+P1109,Sophia,35,Male,Orthopedics,Fracture,Chemotherapy,32466,East,2025-04-20,2025-04-21
+P1110,Alex,35,Female,Neurology,Cancer,Therapy,73045,West,2025-04-21,2025-04-22
+P1111,James,33,Male,Pediatrics,Hypertension,Chemotherapy,13487,South,2025-04-22,2025-04-23
+P1112,Olivia,5,Male,Orthopedics,Cancer,Therapy,37811,East,2025-04-23,2025-04-24
+P1113,Mary,41,Male,Pediatrics,Covid-19,Medication,32075,North,2025-04-24,2025-04-25
+P1114,John,28,Male,Orthopedics,Covid-19,Observation,64352,East,2025-04-25,2025-04-26
+P1115,Mary,7,Female,Cardiology,Covid-19,Chemotherapy,1507,North,2025-04-26,2025-04-27
+P1116,Alex,73,Male,Cardiology,Cancer,Surgery,71481,South,2025-04-27,2025-04-28
+P1117,Alex,72,Female,Neurology,Fracture,Chemotherapy,76742,West,2025-04-28,2025-04-29
+P1118,Michael,12,Female,Oncology,Covid-19,Medication,48017,East,2025-04-29,2025-04-30
+P1119,Isabella,34,Male,Orthopedics,Diabetes,Therapy,29757,East,2025-04-30,2025-05-01
+P1120,Mary,33,Female,Oncology,Hypertension,Chemotherapy,87772,West,2025-05-01,2025-05-02
+P1121,Michael,48,Female,Oncology,Diabetes,Medication,42707,East,2025-05-02,2025-05-03
+P1122,Michael,23,Female,General Medicine,Fracture,Therapy,13781,East,2025-05-03,2025-05-04
+P1123,Isabella,62,Male,Cardiology,Hypertension,Observation,61746,East,2025-05-04,2025-05-05
+P1124,Olivia,88,Male,Neurology,Asthma,Medication,1935,East,2025-05-05,2025-05-06
+P1125,James,37,Female,Orthopedics,Fracture,Surgery,99375,West,2025-05-06,2025-05-07
+P1126,David,44,Female,Neurology,Diabetes,Chemotherapy,91857,South,2025-05-07,2025-05-08
+P1127,James,86,Male,Cardiology,Diabetes,Medication,27160,East,2025-05-08,2025-05-09
+P1128,John,35,Female,Oncology,Flu,Therapy,5584,West,2025-05-09,2025-05-10
+P1129,Mary,65,Female,Neurology,Flu,Therapy,82697,South,2025-05-10,2025-05-11
+P1130,James,47,Female,Orthopedics,Migraine,Surgery,14007,West,2025-05-11,2025-05-12
+P1131,David,78,Female,Pediatrics,Asthma,Chemotherapy,73095,North,2025-05-12,2025-05-13
+P1132,Emma,3,Female,General Medicine,Flu,Therapy,84307,South,2025-05-13,2025-05-14
+P1133,Mary,1,Female,Cardiology,Fracture,Therapy,46039,South,2025-05-14,2025-05-15
+P1134,David,5,Male,Oncology,Covid-19,Therapy,7991,North,2025-05-15,2025-05-16
+P1135,Michael,14,Male,Orthopedics,Hypertension,Medication,50692,South,2025-05-16,2025-05-17
+P1136,Alex,27,Male,Orthopedics,Cancer,Medication,80895,South,2025-05-17,2025-05-18
+P1137,Olivia,9,Female,Neurology,Migraine,Chemotherapy,64388,North,2025-05-18,2025-05-19
+P1138,John,79,Male,Cardiology,Asthma,Surgery,74109,West,2025-05-19,2025-05-20
+P1139,David,15,Female,Pediatrics,Fracture,Chemotherapy,9577,East,2025-05-20,2025-05-21
+P1140,James,42,Female,Pediatrics,Hypertension,Surgery,21453,South,2025-05-21,2025-05-22
+P1141,Alex,77,Male,General Medicine,Covid-19,Observation,77419,West,2025-05-22,2025-05-23
+P1142,James,51,Male,Oncology,Diabetes,Therapy,68389,West,2025-05-23,2025-05-24
+P1143,Mary,63,Female,General Medicine,Migraine,Surgery,24321,North,2025-05-24,2025-05-25
+P1144,David,52,Male,Neurology,Cancer,Therapy,38067,West,2025-05-25,2025-05-26
+P1145,James,4,Male,Cardiology,Flu,Surgery,25360,North,2025-05-26,2025-05-27
+P1146,Isabella,23,Female,Pediatrics,Asthma,Observation,21695,West,2025-05-27,2025-05-28
+P1147,Sophia,15,Female,Cardiology,Hypertension,Surgery,77975,East,2025-05-28,2025-05-29
+P1148,Alex,43,Male,Neurology,Hypertension,Chemotherapy,91374,West,2025-05-29,2025-05-30
+P1149,Emma,29,Female,Cardiology,Covid-19,Medication,87766,West,2025-05-30,2025-05-31
+P1150,Alex,36,Male,Cardiology,Hypertension,Therapy,21927,West,2025-05-31,2025-06-01
+P1151,James,13,Male,Cardiology,Hypertension,Medication,27583,North,2025-06-01,2025-06-02
+P1152,James,32,Female,Neurology,Hypertension,Surgery,87546,South,2025-06-02,2025-06-03
+P1153,John,71,Female,Neurology,Covid-19,Chemotherapy,57872,North,2025-06-03,2025-06-04
+P1154,Isabella,59,Male,Neurology,Cancer,Surgery,44564,East,2025-06-04,2025-06-05
+P1155,Emma,86,Female,Pediatrics,Flu,Observation,8313,North,2025-06-05,2025-06-06
+P1156,Olivia,28,Male,Orthopedics,Asthma,Observation,32098,South,2025-06-06,2025-06-07
+P1157,John,66,Female,Oncology,Covid-19,Observation,93606,East,2025-06-07,2025-06-08
+P1158,Mary,42,Female,Oncology,Asthma,Surgery,27582,South,2025-06-08,2025-06-09
+P1159,Emma,45,Male,Oncology,Diabetes,Observation,29741,South,2025-06-09,2025-06-10
+P1160,David,62,Female,Cardiology,Fracture,Surgery,96714,East,2025-06-10,2025-06-11
+P1161,Sophia,57,Male,General Medicine,Cancer,Surgery,45069,South,2025-06-11,2025-06-12
+P1162,John,6,Female,General Medicine,Asthma,Chemotherapy,12245,North,2025-06-12,2025-06-13
+P1163,Sophia,28,Male,Orthopedics,Flu,Therapy,26529,South,2025-06-13,2025-06-14
+P1164,Isabella,28,Male,Cardiology,Asthma,Medication,13525,West,2025-06-14,2025-06-15
+P1165,Mary,44,Female,Cardiology,Cancer,Therapy,14788,North,2025-06-15,2025-06-16
+P1166,Mary,84,Male,Cardiology,Migraine,Medication,89686,South,2025-06-16,2025-06-17
+P1167,Olivia,30,Female,Neurology,Covid-19,Medication,7040,West,2025-06-17,2025-06-18
+P1168,Mary,62,Male,Oncology,Covid-19,Surgery,98268,North,2025-06-18,2025-06-19
+P1169,James,75,Male,Pediatrics,Flu,Observation,82458,East,2025-06-19,2025-06-20
+P1170,Alex,89,Male,Neurology,Flu,Observation,69378,North,2025-06-20,2025-06-21
+P1171,Alex,62,Female,Cardiology,Cancer,Observation,42346,East,2025-06-21,2025-06-22
+P1172,Olivia,1,Female,Orthopedics,Diabetes,Therapy,76432,North,2025-06-22,2025-06-23
+P1173,James,27,Male,Cardiology,Fracture,Observation,17982,West,2025-06-23,2025-06-24
+P1174,Alex,62,Female,Cardiology,Fracture,Chemotherapy,23911,East,2025-06-24,2025-06-25
+P1175,David,77,Female,Pediatrics,Hypertension,Surgery,51475,North,2025-06-25,2025-06-26
+P1176,James,3,Male,Cardiology,Migraine,Observation,61045,East,2025-06-26,2025-06-27
+P1177,Isabella,70,Male,Neurology,Migraine,Observation,79297,South,2025-06-27,2025-06-28
+P1178,Michael,72,Male,General Medicine,Cancer,Observation,52807,North,2025-06-28,2025-06-29
+P1179,Sophia,27,Female,Pediatrics,Diabetes,Therapy,3593,North,2025-06-29,2025-06-30
+P1180,James,9,Male,Oncology,Fracture,Surgery,77758,West,2025-06-30,2025-07-01
+P1181,Sophia,62,Male,Pediatrics,Migraine,Chemotherapy,22542,West,2025-07-01,2025-07-02
+P1182,David,37,Female,Pediatrics,Asthma,Observation,53430,West,2025-07-02,2025-07-03
+P1183,Michael,51,Male,Cardiology,Migraine,Medication,44913,East,2025-07-03,2025-07-04
+P1184,Emma,44,Female,Pediatrics,Cancer,Therapy,94123,North,2025-07-04,2025-07-05
+P1185,Olivia,24,Male,Oncology,Cancer,Observation,98383,East,2025-07-05,2025-07-06
+P1186,James,79,Female,Pediatrics,Covid-19,Observation,34256,North,2025-07-06,2025-07-07
+P1187,Olivia,59,Male,Neurology,Covid-19,Therapy,53768,West,2025-07-07,2025-07-08
+P1188,Mary,32,Male,Orthopedics,Flu,Chemotherapy,39714,East,2025-07-08,2025-07-09
+P1189,Sophia,88,Male,Neurology,Hypertension,Medication,82371,South,2025-07-09,2025-07-10
+P1190,Sophia,52,Female,Neurology,Covid-19,Medication,29102,South,2025-07-10,2025-07-11
+P1191,Mary,62,Female,Orthopedics,Hypertension,Chemotherapy,53831,North,2025-07-11,2025-07-12
+P1192,Emma,58,Male,Orthopedics,Asthma,Therapy,49401,East,2025-07-12,2025-07-13
+P1193,John,52,Male,Pediatrics,Diabetes,Observation,63916,East,2025-07-13,2025-07-14
+P1194,Isabella,12,Female,Neurology,Fracture,Chemotherapy,32696,North,2025-07-14,2025-07-15
+P1195,James,39,Male,Cardiology,Asthma,Therapy,6126,North,2025-07-15,2025-07-16
+P1196,Sophia,2,Male,General Medicine,Hypertension,Therapy,7924,West,2025-07-16,2025-07-17
+P1197,Isabella,3,Male,General Medicine,Hypertension,Therapy,13357,North,2025-07-17,2025-07-18
+P1198,Sophia,56,Female,General Medicine,Hypertension,Therapy,20482,West,2025-07-18,2025-07-19
+P1199,John,81,Female,Neurology,Cancer,Medication,77461,East,2025-07-19,2025-07-20
+P1200,Mary,59,Male,Oncology,Diabetes,Therapy,2480,South,2025-07-20,2025-07-21
+P1201,John,2,Female,Orthopedics,Asthma,Chemotherapy,48790,South,2025-07-21,2025-07-22
+P1202,Sophia,2,Male,Pediatrics,Migraine,Observation,26931,West,2025-07-22,2025-07-23
+P1203,Mary,54,Female,Pediatrics,Cancer,Observation,85476,North,2025-07-23,2025-07-24
+P1204,John,87,Male,General Medicine,Diabetes,Surgery,83211,North,2025-07-24,2025-07-25
+P1205,Emma,1,Male,Pediatrics,Covid-19,Chemotherapy,26885,South,2025-07-25,2025-07-26
+P1206,Mary,19,Female,Cardiology,Covid-19,Surgery,38658,South,2025-07-26,2025-07-27
+P1207,James,2,Male,Cardiology,Covid-19,Chemotherapy,23519,West,2025-07-27,2025-07-28
+P1208,Sophia,53,Male,Orthopedics,Asthma,Therapy,19139,West,2025-07-28,2025-07-29
+P1209,David,44,Female,Pediatrics,Hypertension,Surgery,86030,East,2025-07-29,2025-07-30
+P1210,Olivia,32,Female,Neurology,Migraine,Therapy,22063,South,2025-07-30,2025-07-31
+P1211,Sophia,70,Male,Pediatrics,Flu,Chemotherapy,39841,North,2025-07-31,2025-08-01
+P1212,James,32,Female,Neurology,Asthma,Medication,6276,East,2025-08-01,2025-08-02
+P1213,Alex,68,Female,Oncology,Flu,Medication,36944,West,2025-08-02,2025-08-03
+P1214,Isabella,55,Female,General Medicine,Hypertension,Medication,69416,West,2025-08-03,2025-08-04
+P1215,Isabella,75,Male,Neurology,Hypertension,Medication,9211,East,2025-08-04,2025-08-05
+P1216,Olivia,56,Female,Oncology,Hypertension,Observation,74818,South,2025-08-05,2025-08-06
+P1217,Sophia,17,Male,General Medicine,Flu,Medication,83470,East,2025-08-06,2025-08-07
+P1218,Olivia,38,Female,Cardiology,Hypertension,Chemotherapy,86053,North,2025-08-07,2025-08-08
+P1219,Michael,24,Male,Pediatrics,Flu,Medication,31207,East,2025-08-08,2025-08-09
+P1220,Sophia,69,Male,Oncology,Hypertension,Observation,39610,South,2025-08-09,2025-08-10
+P1221,Mary,70,Female,Orthopedics,Fracture,Therapy,62288,West,2025-08-10,2025-08-11
+P1222,Mary,86,Male,Pediatrics,Hypertension,Surgery,83379,West,2025-08-11,2025-08-12
+P1223,Michael,11,Male,General Medicine,Migraine,Therapy,39327,West,2025-08-12,2025-08-13
+P1224,Emma,16,Female,Pediatrics,Flu,Therapy,6155,West,2025-08-13,2025-08-14
+P1225,Michael,73,Female,Orthopedics,Fracture,Surgery,45359,East,2025-08-14,2025-08-15
+P1226,Michael,59,Male,General Medicine,Diabetes,Medication,54125,West,2025-08-15,2025-08-16
+P1227,Olivia,70,Female,General Medicine,Asthma,Medication,52598,North,2025-08-16,2025-08-17
+P1228,John,80,Female,Orthopedics,Covid-19,Chemotherapy,15751,West,2025-08-17,2025-08-18
+P1229,Mary,3,Male,Pediatrics,Covid-19,Medication,1026,East,2025-08-18,2025-08-19
+P1230,John,20,Male,Orthopedics,Covid-19,Medication,69260,South,2025-08-19,2025-08-20
+P1231,Michael,59,Male,Neurology,Hypertension,Chemotherapy,48337,West,2025-08-20,2025-08-21
+P1232,Emma,36,Female,Cardiology,Asthma,Surgery,12036,West,2025-08-21,2025-08-22
+P1233,Mary,19,Male,Orthopedics,Migraine,Chemotherapy,29041,North,2025-08-22,2025-08-23
+P1234,Sophia,67,Female,General Medicine,Hypertension,Medication,79583,North,2025-08-23,2025-08-24
+P1235,Sophia,19,Male,Neurology,Hypertension,Medication,51527,East,2025-08-24,2025-08-25
+P1236,Sophia,20,Male,Cardiology,Fracture,Medication,35031,West,2025-08-25,2025-08-26
+P1237,James,71,Male,Orthopedics,Hypertension,Chemotherapy,9212,South,2025-08-26,2025-08-27
+P1238,Olivia,52,Male,Cardiology,Cancer,Surgery,65955,South,2025-08-27,2025-08-28
+P1239,Alex,33,Female,Pediatrics,Covid-19,Observation,75244,West,2025-08-28,2025-08-29
+P1240,Michael,40,Female,General Medicine,Diabetes,Chemotherapy,5609,North,2025-08-29,2025-08-30
+P1241,Alex,39,Female,Orthopedics,Asthma,Surgery,49768,East,2025-08-30,2025-08-31
+P1242,David,82,Female,General Medicine,Migraine,Medication,55115,West,2025-08-31,2025-09-01
+P1243,Olivia,1,Female,Neurology,Migraine,Surgery,83003,West,2025-09-01,2025-09-02
+P1244,Sophia,11,Male,Neurology,Hypertension,Therapy,30259,North,2025-09-02,2025-09-03
+P1245,Mary,57,Male,Cardiology,Diabetes,Therapy,86208,West,2025-09-03,2025-09-04
+P1246,Olivia,89,Female,Neurology,Flu,Observation,60612,East,2025-09-04,2025-09-05
+P1247,James,50,Female,Oncology,Asthma,Medication,27089,South,2025-09-05,2025-09-06
+P1248,Mary,23,Male,Neurology,Migraine,Observation,30515,South,2025-09-06,2025-09-07
+P1249,John,31,Female,Orthopedics,Hypertension,Therapy,29509,East,2025-09-07,2025-09-08
+P1250,James,42,Female,General Medicine,Diabetes,Observation,83809,South,2025-09-08,2025-09-09
+P1251,John,7,Male,Oncology,Hypertension,Therapy,62546,West,2025-09-09,2025-09-10
+P1252,Mary,16,Female,Cardiology,Covid-19,Therapy,26643,East,2025-09-10,2025-09-11
+P1253,Sophia,60,Female,Neurology,Flu,Surgery,6654,North,2025-09-11,2025-09-12
+P1254,Alex,2,Female,General Medicine,Diabetes,Medication,22304,North,2025-09-12,2025-09-13
+P1255,Michael,1,Female,Pediatrics,Diabetes,Therapy,42188,North,2025-09-13,2025-09-14
+P1256,Olivia,48,Female,Orthopedics,Covid-19,Medication,64788,North,2025-09-14,2025-09-15
+P1257,Olivia,12,Female,Neurology,Hypertension,Observation,51695,West,2025-09-15,2025-09-16
+P1258,Sophia,69,Male,Neurology,Flu,Observation,21081,West,2025-09-16,2025-09-17
+P1259,Michael,37,Female,Neurology,Migraine,Therapy,53148,North,2025-09-17,2025-09-18
+P1260,John,32,Female,General Medicine,Migraine,Medication,30587,West,2025-09-18,2025-09-19
+P1261,Alex,9,Female,Orthopedics,Cancer,Therapy,50430,East,2025-09-19,2025-09-20
+P1262,Michael,19,Female,Oncology,Flu,Therapy,33481,East,2025-09-20,2025-09-21
+P1263,John,48,Male,Oncology,Migraine,Surgery,69798,East,2025-09-21,2025-09-22
+P1264,Michael,80,Female,Orthopedics,Asthma,Observation,46667,North,2025-09-22,2025-09-23
+P1265,David,3,Male,General Medicine,Covid-19,Medication,75804,North,2025-09-23,2025-09-24
+P1266,Olivia,20,Female,Cardiology,Migraine,Observation,43908,North,2025-09-24,2025-09-25
+P1267,David,24,Male,Oncology,Cancer,Surgery,39999,West,2025-09-25,2025-09-26
+P1268,Michael,54,Female,Oncology,Diabetes,Chemotherapy,52769,South,2025-09-26,2025-09-27
+P1269,James,33,Female,Orthopedics,Migraine,Observation,39059,South,2025-09-27,2025-09-28
+P1270,Olivia,24,Male,General Medicine,Hypertension,Surgery,74819,West,2025-09-28,2025-09-29
+P1271,Alex,75,Male,General Medicine,Fracture,Observation,95817,North,2025-09-29,2025-09-30
+P1272,Sophia,72,Female,Neurology,Covid-19,Medication,96847,North,2025-09-30,2025-10-01
+P1273,David,36,Female,General Medicine,Asthma,Surgery,49287,West,2025-10-01,2025-10-02
+P1274,Sophia,38,Female,Neurology,Diabetes,Chemotherapy,35988,East,2025-10-02,2025-10-03
+P1275,John,84,Female,Pediatrics,Fracture,Observation,74941,East,2025-10-03,2025-10-04
+P1276,Isabella,89,Female,General Medicine,Migraine,Surgery,75163,West,2025-10-04,2025-10-05
+P1277,James,25,Male,Orthopedics,Fracture,Chemotherapy,22931,West,2025-10-05,2025-10-06
+P1278,John,18,Female,Neurology,Asthma,Medication,62181,East,2025-10-06,2025-10-07
+P1279,Emma,82,Female,Pediatrics,Flu,Observation,63983,East,2025-10-07,2025-10-08
+P1280,John,66,Female,Cardiology,Flu,Therapy,49653,South,2025-10-08,2025-10-09
+P1281,John,54,Male,Cardiology,Diabetes,Medication,6868,South,2025-10-09,2025-10-10
+P1282,Isabella,35,Female,Cardiology,Flu,Medication,27924,South,2025-10-10,2025-10-11
+P1283,Olivia,80,Female,Neurology,Migraine,Medication,45504,North,2025-10-11,2025-10-12
+P1284,James,61,Female,General Medicine,Asthma,Medication,84369,East,2025-10-12,2025-10-13
+P1285,James,41,Male,Neurology,Cancer,Chemotherapy,89152,North,2025-10-13,2025-10-14
+P1286,Alex,33,Male,Cardiology,Migraine,Therapy,57485,West,2025-10-14,2025-10-15
+P1287,John,68,Female,General Medicine,Cancer,Observation,50569,North,2025-10-15,2025-10-16
+P1288,James,33,Female,Pediatrics,Diabetes,Medication,52826,North,2025-10-16,2025-10-17
+P1289,Mary,14,Male,Cardiology,Hypertension,Observation,81561,West,2025-10-17,2025-10-18
+P1290,Alex,21,Male,Orthopedics,Migraine,Surgery,23898,North,2025-10-18,2025-10-19
+P1291,Mary,48,Male,General Medicine,Fracture,Medication,98893,North,2025-10-19,2025-10-20
+P1292,Isabella,20,Female,Neurology,Fracture,Medication,51361,South,2025-10-20,2025-10-21
+P1293,Mary,8,Male,Neurology,Migraine,Observation,76397,West,2025-10-21,2025-10-22
+P1294,Sophia,7,Male,Orthopedics,Cancer,Therapy,82405,West,2025-10-22,2025-10-23
+P1295,Michael,67,Male,Oncology,Fracture,Surgery,69077,West,2025-10-23,2025-10-24
+P1296,Mary,17,Male,Neurology,Migraine,Therapy,66141,West,2025-10-24,2025-10-25
+P1297,Isabella,33,Female,Orthopedics,Asthma,Observation,9578,East,2025-10-25,2025-10-26
+P1298,Sophia,48,Female,Cardiology,Migraine,Chemotherapy,25503,East,2025-10-26,2025-10-27
+P1299,Isabella,76,Female,Cardiology,Covid-19,Medication,63268,West,2025-10-27,2025-10-28
+P1300,Isabella,59,Male,Neurology,Hypertension,Chemotherapy,51547,East,2025-10-28,2025-10-29
+P1301,John,86,Male,General Medicine,Cancer,Observation,72126,North,2025-10-29,2025-10-30
+P1302,Isabella,22,Female,Oncology,Covid-19,Observation,58160,South,2025-10-30,2025-10-31
+P1303,Mary,30,Female,Neurology,Fracture,Observation,50286,South,2025-10-31,2025-11-01
+P1304,Michael,38,Female,Cardiology,Fracture,Observation,2425,North,2025-11-01,2025-11-02
+P1305,Isabella,51,Female,General Medicine,Cancer,Medication,84476,South,2025-11-02,2025-11-03
+P1306,Isabella,54,Male,Orthopedics,Migraine,Chemotherapy,26515,North,2025-11-03,2025-11-04
+P1307,James,8,Male,Cardiology,Hypertension,Surgery,33820,North,2025-11-04,2025-11-05
+P1308,Emma,27,Female,Orthopedics,Diabetes,Medication,65381,South,2025-11-05,2025-11-06
+P1309,David,27,Female,Oncology,Asthma,Observation,91327,North,2025-11-06,2025-11-07
+P1310,Sophia,21,Female,Oncology,Covid-19,Observation,26789,South,2025-11-07,2025-11-08
+P1311,Emma,30,Female,Pediatrics,Hypertension,Medication,3889,West,2025-11-08,2025-11-09
+P1312,Sophia,28,Male,General Medicine,Diabetes,Chemotherapy,26183,South,2025-11-09,2025-11-10
+P1313,David,64,Male,Cardiology,Asthma,Chemotherapy,14129,South,2025-11-10,2025-11-11
+P1314,Michael,69,Male,Orthopedics,Migraine,Therapy,62050,West,2025-11-11,2025-11-12
+P1315,Alex,61,Male,Orthopedics,Cancer,Therapy,25326,South,2025-11-12,2025-11-13
+P1316,David,48,Female,Orthopedics,Flu,Therapy,27130,North,2025-11-13,2025-11-14
+P1317,Olivia,19,Female,Neurology,Hypertension,Observation,99262,East,2025-11-14,2025-11-15
+P1318,Emma,4,Male,Neurology,Migraine,Medication,46663,West,2025-11-15,2025-11-16
+P1319,Mary,35,Female,Oncology,Flu,Medication,99011,South,2025-11-16,2025-11-17
+P1320,John,64,Female,Pediatrics,Diabetes,Therapy,66935,West,2025-11-17,2025-11-18
+P1321,Olivia,49,Female,Oncology,Hypertension,Chemotherapy,12153,West,2025-11-18,2025-11-19
+P1322,Isabella,17,Male,Pediatrics,Covid-19,Therapy,28461,North,2025-11-19,2025-11-20
+P1323,Isabella,44,Female,Oncology,Migraine,Medication,82441,North,2025-11-20,2025-11-21
+P1324,Mary,30,Female,Orthopedics,Diabetes,Observation,74637,South,2025-11-21,2025-11-22
+P1325,Mary,46,Male,Neurology,Diabetes,Therapy,34162,South,2025-11-22,2025-11-23
+P1326,James,6,Male,Oncology,Fracture,Surgery,99318,West,2025-11-23,2025-11-24
+P1327,Sophia,37,Male,General Medicine,Asthma,Surgery,56946,West,2025-11-24,2025-11-25
+P1328,James,24,Male,Oncology,Cancer,Chemotherapy,21788,West,2025-11-25,2025-11-26
+P1329,David,46,Female,General Medicine,Diabetes,Medication,95581,North,2025-11-26,2025-11-27
+P1330,Alex,53,Male,Orthopedics,Flu,Observation,37377,West,2025-11-27,2025-11-28
+P1331,Emma,60,Female,Neurology,Migraine,Surgery,15813,South,2025-11-28,2025-11-29
+P1332,Mary,63,Male,Oncology,Migraine,Therapy,81385,South,2025-11-29,2025-11-30
+P1333,Sophia,85,Female,General Medicine,Fracture,Observation,73215,East,2025-11-30,2025-12-01
+P1334,Emma,32,Female,Neurology,Flu,Medication,10826,West,2025-12-01,2025-12-02
+P1335,David,87,Male,Pediatrics,Hypertension,Therapy,2060,North,2025-12-02,2025-12-03
+P1336,Alex,33,Female,Orthopedics,Covid-19,Observation,79648,East,2025-12-03,2025-12-04
+P1337,Olivia,67,Female,Oncology,Covid-19,Medication,83686,North,2025-12-04,2025-12-05
+P1338,James,18,Male,Oncology,Flu,Observation,27245,North,2025-12-05,2025-12-06
+P1339,David,25,Male,Orthopedics,Asthma,Surgery,32390,West,2025-12-06,2025-12-07
+P1340,Isabella,54,Female,Neurology,Fracture,Surgery,20522,West,2025-12-07,2025-12-08
+P1341,James,58,Male,Neurology,Asthma,Medication,53079,West,2025-12-08,2025-12-09
+P1342,John,67,Male,Oncology,Flu,Surgery,70816,East,2025-12-09,2025-12-10
+P1343,James,46,Male,Cardiology,Asthma,Medication,84347,North,2025-12-10,2025-12-11
+P1344,David,24,Male,Oncology,Hypertension,Chemotherapy,28880,West,2025-12-11,2025-12-12
+P1345,Mary,32,Male,General Medicine,Flu,Surgery,2856,West,2025-12-12,2025-12-13
+P1346,Alex,47,Female,Pediatrics,Cancer,Observation,70826,West,2025-12-13,2025-12-14
+P1347,David,86,Male,General Medicine,Asthma,Observation,92947,West,2025-12-14,2025-12-15
+P1348,Mary,23,Female,Cardiology,Flu,Medication,90399,South,2025-12-15,2025-12-16
+P1349,Mary,66,Female,Neurology,Hypertension,Chemotherapy,20549,North,2025-12-16,2025-12-17
+P1350,James,27,Female,General Medicine,Diabetes,Therapy,76217,North,2025-12-17,2025-12-18
+P1351,Alex,2,Male,Orthopedics,Fracture,Observation,16582,West,2025-12-18,2025-12-19
+P1352,David,17,Male,General Medicine,Migraine,Chemotherapy,1161,East,2025-12-19,2025-12-20
+P1353,David,33,Male,Neurology,Cancer,Observation,37912,North,2025-12-20,2025-12-21
+P1354,Isabella,9,Female,Oncology,Migraine,Medication,3420,East,2025-12-21,2025-12-22
+P1355,Sophia,43,Female,General Medicine,Migraine,Medication,91694,West,2025-12-22,2025-12-23
+P1356,Emma,48,Female,Cardiology,Asthma,Therapy,60815,West,2025-12-23,2025-12-24
+P1357,Sophia,39,Female,Pediatrics,Flu,Medication,80061,North,2025-12-24,2025-12-25
+P1358,David,42,Female,Neurology,Diabetes,Therapy,9446,West,2025-12-25,2025-12-26
+P1359,James,26,Male,Orthopedics,Diabetes,Medication,94742,East,2025-12-26,2025-12-27
+P1360,Olivia,50,Male,Oncology,Fracture,Observation,46000,West,2025-12-27,2025-12-28
+P1361,David,25,Female,Cardiology,Cancer,Medication,16809,West,2025-12-28,2025-12-29
+P1362,John,24,Male,Neurology,Cancer,Surgery,55730,North,2025-12-29,2025-12-30
+P1363,Mary,13,Female,Orthopedics,Fracture,Chemotherapy,99156,South,2025-12-30,2025-12-31
+P1364,Michael,60,Female,Orthopedics,Asthma,Observation,30527,East,2025-12-31,2026-01-01
+P1365,David,7,Female,Neurology,Asthma,Chemotherapy,73041,South,2026-01-01,2026-01-02
+P1366,John,57,Male,Oncology,Covid-19,Surgery,59821,West,2026-01-02,2026-01-03
+P1367,John,36,Male,Cardiology,Migraine,Chemotherapy,1456,East,2026-01-03,2026-01-04
+P1368,Emma,45,Male,Oncology,Flu,Surgery,74631,West,2026-01-04,2026-01-05
+P1369,Alex,20,Female,Oncology,Fracture,Medication,48408,South,2026-01-05,2026-01-06
+P1370,David,65,Male,Oncology,Hypertension,Medication,78839,South,2026-01-06,2026-01-07
+P1371,Alex,8,Male,Oncology,Migraine,Surgery,26463,East,2026-01-07,2026-01-08
+P1372,Olivia,16,Male,Orthopedics,Diabetes,Observation,39943,West,2026-01-08,2026-01-09
+P1373,James,14,Female,Pediatrics,Diabetes,Medication,99759,South,2026-01-09,2026-01-10
+P1374,Michael,76,Male,Cardiology,Fracture,Observation,39563,East,2026-01-10,2026-01-11
+P1375,James,87,Male,Orthopedics,Cancer,Chemotherapy,81318,West,2026-01-11,2026-01-12
+P1376,John,15,Female,Neurology,Diabetes,Medication,5203,West,2026-01-12,2026-01-13
+P1377,Mary,66,Male,Neurology,Fracture,Surgery,65628,East,2026-01-13,2026-01-14
+P1378,Mary,32,Female,Oncology,Fracture,Surgery,72599,West,2026-01-14,2026-01-15
+P1379,Alex,87,Female,Cardiology,Covid-19,Medication,26349,South,2026-01-15,2026-01-16
+P1380,James,63,Male,Orthopedics,Migraine,Surgery,32360,South,2026-01-16,2026-01-17
+P1381,John,86,Female,Orthopedics,Covid-19,Medication,32085,East,2026-01-17,2026-01-18
+P1382,Emma,51,Male,Cardiology,Asthma,Therapy,22515,North,2026-01-18,2026-01-19
+P1383,Isabella,25,Female,Oncology,Cancer,Medication,78039,West,2026-01-19,2026-01-20
+P1384,James,58,Male,Cardiology,Covid-19,Observation,44085,South,2026-01-20,2026-01-21
+P1385,Alex,63,Female,Cardiology,Covid-19,Chemotherapy,27458,South,2026-01-21,2026-01-22
+P1386,Michael,62,Male,Pediatrics,Flu,Surgery,26517,South,2026-01-22,2026-01-23
+P1387,Alex,22,Male,Pediatrics,Covid-19,Chemotherapy,77207,South,2026-01-23,2026-01-24
+P1388,John,58,Male,Oncology,Diabetes,Medication,45850,West,2026-01-24,2026-01-25
+P1389,David,58,Male,Pediatrics,Fracture,Medication,12701,North,2026-01-25,2026-01-26
+P1390,Emma,86,Female,Neurology,Diabetes,Medication,29926,West,2026-01-26,2026-01-27
+P1391,John,49,Male,Pediatrics,Migraine,Observation,18278,West,2026-01-27,2026-01-28
+P1392,Emma,52,Male,Pediatrics,Asthma,Chemotherapy,45741,East,2026-01-28,2026-01-29
+P1393,Sophia,42,Male,Pediatrics,Asthma,Chemotherapy,42729,South,2026-01-29,2026-01-30
+P1394,Sophia,70,Male,Orthopedics,Cancer,Surgery,87152,South,2026-01-30,2026-01-31
+P1395,Mary,15,Female,General Medicine,Migraine,Medication,48864,North,2026-01-31,2026-02-01
+P1396,Emma,54,Male,Pediatrics,Cancer,Surgery,99333,North,2026-02-01,2026-02-02
+P1397,James,60,Female,Cardiology,Flu,Observation,85378,East,2026-02-02,2026-02-03
+P1398,Michael,8,Male,Pediatrics,Fracture,Therapy,57556,East,2026-02-03,2026-02-04
+P1399,Isabella,53,Female,General Medicine,Asthma,Observation,27990,East,2026-02-04,2026-02-05
+P1400,Alex,60,Female,Oncology,Fracture,Therapy,20475,South,2026-02-05,2026-02-06
+P1401,Sophia,5,Female,Oncology,Diabetes,Medication,27223,South,2026-02-06,2026-02-07
+P1402,Alex,68,Female,Neurology,Migraine,Chemotherapy,23779,North,2026-02-07,2026-02-08
+P1403,Alex,6,Male,Neurology,Cancer,Chemotherapy,78801,North,2026-02-08,2026-02-09
+P1404,Michael,47,Female,Pediatrics,Diabetes,Surgery,12061,East,2026-02-09,2026-02-10
+P1405,John,55,Female,Cardiology,Hypertension,Therapy,66561,West,2026-02-10,2026-02-11
+P1406,Alex,40,Female,Cardiology,Covid-19,Surgery,88897,North,2026-02-11,2026-02-12
+P1407,Emma,52,Male,Orthopedics,Cancer,Medication,49653,South,2026-02-12,2026-02-13
+P1408,Michael,16,Male,Cardiology,Cancer,Chemotherapy,33642,North,2026-02-13,2026-02-14
+P1409,Sophia,13,Male,Orthopedics,Asthma,Surgery,27416,South,2026-02-14,2026-02-15
+P1410,David,30,Female,Orthopedics,Fracture,Therapy,64824,West,2026-02-15,2026-02-16
+P1411,Alex,19,Female,Cardiology,Hypertension,Medication,45465,East,2026-02-16,2026-02-17
+P1412,Mary,17,Female,Cardiology,Asthma,Medication,5148,East,2026-02-17,2026-02-18
+P1413,Michael,63,Female,Orthopedics,Covid-19,Therapy,35633,East,2026-02-18,2026-02-19
+P1414,John,19,Male,Neurology,Asthma,Surgery,51177,North,2026-02-19,2026-02-20
+P1415,Olivia,58,Female,Pediatrics,Asthma,Observation,96559,East,2026-02-20,2026-02-21
+P1416,Sophia,55,Male,Neurology,Asthma,Surgery,95088,South,2026-02-21,2026-02-22
+P1417,Sophia,62,Female,Oncology,Fracture,Therapy,98817,North,2026-02-22,2026-02-23
+P1418,Olivia,23,Female,Cardiology,Asthma,Chemotherapy,70635,North,2026-02-23,2026-02-24
+P1419,Emma,9,Female,General Medicine,Asthma,Surgery,35546,West,2026-02-24,2026-02-25
+P1420,David,12,Female,Cardiology,Asthma,Observation,47564,West,2026-02-25,2026-02-26
+P1421,Sophia,1,Male,Orthopedics,Asthma,Surgery,69850,North,2026-02-26,2026-02-27
+P1422,Sophia,58,Female,General Medicine,Cancer,Chemotherapy,46393,North,2026-02-27,2026-02-28
+P1423,John,1,Male,General Medicine,Hypertension,Medication,61772,North,2026-02-28,2026-03-01
+P1424,Sophia,34,Female,Pediatrics,Diabetes,Surgery,92652,North,2026-03-01,2026-03-02
+P1425,Michael,48,Male,Oncology,Diabetes,Medication,68149,North,2026-03-02,2026-03-03
+P1426,Emma,89,Female,Cardiology,Diabetes,Chemotherapy,65174,South,2026-03-03,2026-03-04
+P1427,David,1,Male,Pediatrics,Covid-19,Observation,14260,North,2026-03-04,2026-03-05
+P1428,Mary,16,Female,Oncology,Flu,Surgery,22427,South,2026-03-05,2026-03-06
+P1429,David,61,Female,Neurology,Flu,Medication,86975,East,2026-03-06,2026-03-07
+P1430,Emma,64,Male,General Medicine,Covid-19,Observation,61867,South,2026-03-07,2026-03-08
+P1431,James,63,Male,Pediatrics,Cancer,Medication,98455,East,2026-03-08,2026-03-09
+P1432,Michael,69,Male,Neurology,Cancer,Medication,13088,West,2026-03-09,2026-03-10
+P1433,James,22,Male,Cardiology,Covid-19,Medication,52733,West,2026-03-10,2026-03-11
+P1434,Emma,67,Female,Cardiology,Fracture,Surgery,45238,North,2026-03-11,2026-03-12
+P1435,John,76,Female,Orthopedics,Covid-19,Medication,33897,South,2026-03-12,2026-03-13
+P1436,Mary,26,Female,Neurology,Hypertension,Chemotherapy,82689,East,2026-03-13,2026-03-14
+P1437,David,16,Male,Neurology,Fracture,Therapy,76867,East,2026-03-14,2026-03-15
+P1438,Alex,51,Male,Pediatrics,Migraine,Observation,71760,South,2026-03-15,2026-03-16
+P1439,Isabella,86,Female,Oncology,Asthma,Observation,77119,North,2026-03-16,2026-03-17
+P1440,David,57,Female,General Medicine,Hypertension,Surgery,20316,South,2026-03-17,2026-03-18
+P1441,John,29,Male,Oncology,Flu,Surgery,42740,West,2026-03-18,2026-03-19
+P1442,Mary,78,Male,Oncology,Migraine,Surgery,6776,West,2026-03-19,2026-03-20
+P1443,Isabella,69,Female,General Medicine,Covid-19,Therapy,80030,North,2026-03-20,2026-03-21
+P1444,Michael,47,Female,Orthopedics,Flu,Chemotherapy,23999,South,2026-03-21,2026-03-22
+P1445,Emma,62,Female,Oncology,Cancer,Observation,89076,West,2026-03-22,2026-03-23
+P1446,Emma,69,Female,Orthopedics,Migraine,Observation,82995,East,2026-03-23,2026-03-24
+P1447,Michael,76,Female,Orthopedics,Hypertension,Surgery,72135,East,2026-03-24,2026-03-25
+P1448,Isabella,16,Male,Neurology,Covid-19,Surgery,85612,South,2026-03-25,2026-03-26
+P1449,James,48,Male,Cardiology,Diabetes,Chemotherapy,36446,North,2026-03-26,2026-03-27
+P1450,Mary,85,Female,Cardiology,Covid-19,Medication,55704,East,2026-03-27,2026-03-28
+P1451,Michael,39,Female,Pediatrics,Cancer,Chemotherapy,52386,East,2026-03-28,2026-03-29
+P1452,Isabella,33,Male,General Medicine,Flu,Surgery,72152,West,2026-03-29,2026-03-30
+P1453,Sophia,23,Male,General Medicine,Flu,Observation,16063,East,2026-03-30,2026-03-31
+P1454,David,10,Female,Pediatrics,Asthma,Chemotherapy,92824,South,2026-03-31,2026-04-01
+P1455,John,69,Male,Neurology,Migraine,Medication,92964,South,2026-04-01,2026-04-02
+P1456,Michael,34,Male,Cardiology,Diabetes,Therapy,10347,West,2026-04-02,2026-04-03
+P1457,John,52,Female,Orthopedics,Cancer,Therapy,26655,South,2026-04-03,2026-04-04
+P1458,James,10,Female,Cardiology,Cancer,Observation,80171,South,2026-04-04,2026-04-05
+P1459,James,19,Female,Pediatrics,Fracture,Medication,83810,West,2026-04-05,2026-04-06
+P1460,Sophia,58,Female,Cardiology,Hypertension,Chemotherapy,67778,West,2026-04-06,2026-04-07
+P1461,Emma,1,Male,Orthopedics,Fracture,Surgery,18809,West,2026-04-07,2026-04-08
+P1462,Michael,69,Male,Oncology,Asthma,Surgery,1119,West,2026-04-08,2026-04-09
+P1463,Mary,4,Female,Oncology,Fracture,Medication,83694,East,2026-04-09,2026-04-10
+P1464,Emma,16,Male,General Medicine,Covid-19,Chemotherapy,50608,North,2026-04-10,2026-04-11
+P1465,Isabella,24,Female,Pediatrics,Cancer,Medication,35207,West,2026-04-11,2026-04-12
+P1466,Emma,80,Female,Neurology,Cancer,Chemotherapy,20837,South,2026-04-12,2026-04-13
+P1467,Mary,2,Female,Cardiology,Hypertension,Therapy,82037,North,2026-04-13,2026-04-14
+P1468,David,32,Female,Cardiology,Covid-19,Chemotherapy,67004,North,2026-04-14,2026-04-15
+P1469,James,84,Male,Neurology,Migraine,Chemotherapy,48114,North,2026-04-15,2026-04-16
+P1470,David,24,Female,Neurology,Asthma,Surgery,91928,East,2026-04-16,2026-04-17
+P1471,Michael,12,Male,Oncology,Migraine,Observation,91655,East,2026-04-17,2026-04-18
+P1472,Emma,50,Male,Orthopedics,Cancer,Surgery,781,West,2026-04-18,2026-04-19
+P1473,Michael,35,Female,Cardiology,Cancer,Therapy,27920,South,2026-04-19,2026-04-20
+P1474,David,33,Female,Pediatrics,Migraine,Medication,81396,West,2026-04-20,2026-04-21
+P1475,James,33,Male,Cardiology,Fracture,Surgery,39530,North,2026-04-21,2026-04-22
+P1476,Alex,61,Female,Orthopedics,Covid-19,Medication,1558,West,2026-04-22,2026-04-23
+P1477,Sophia,51,Female,Pediatrics,Hypertension,Surgery,86713,North,2026-04-23,2026-04-24
+P1478,Michael,43,Female,Pediatrics,Hypertension,Observation,76760,South,2026-04-24,2026-04-25
+P1479,Michael,12,Male,Pediatrics,Asthma,Observation,28904,North,2026-04-25,2026-04-26
+P1480,Alex,67,Male,Oncology,Diabetes,Surgery,30356,East,2026-04-26,2026-04-27
+P1481,Isabella,65,Male,Orthopedics,Fracture,Surgery,9700,West,2026-04-27,2026-04-28
+P1482,Isabella,33,Female,Cardiology,Asthma,Medication,64678,West,2026-04-28,2026-04-29
+P1483,David,40,Female,Oncology,Migraine,Medication,34497,East,2026-04-29,2026-04-30
+P1484,Michael,74,Female,General Medicine,Migraine,Therapy,26111,East,2026-04-30,2026-05-01
+P1485,James,43,Female,Pediatrics,Asthma,Therapy,41735,East,2026-05-01,2026-05-02
+P1486,John,44,Male,Neurology,Hypertension,Surgery,35557,North,2026-05-02,2026-05-03
+P1487,David,29,Male,Orthopedics,Hypertension,Observation,1739,East,2026-05-03,2026-05-04
+P1488,David,13,Female,Pediatrics,Covid-19,Therapy,66161,South,2026-05-04,2026-05-05
+P1489,Sophia,12,Male,Orthopedics,Flu,Therapy,45772,West,2026-05-05,2026-05-06
+P1490,Michael,46,Male,Neurology,Hypertension,Chemotherapy,89893,West,2026-05-06,2026-05-07
+P1491,Isabella,2,Male,Pediatrics,Migraine,Observation,61712,South,2026-05-07,2026-05-08
+P1492,Isabella,35,Male,Cardiology,Covid-19,Medication,15898,West,2026-05-08,2026-05-09
+P1493,Emma,87,Female,Orthopedics,Hypertension,Medication,57003,East,2026-05-09,2026-05-10
+P1494,Olivia,81,Female,Pediatrics,Cancer,Medication,7138,West,2026-05-10,2026-05-11
+P1495,Olivia,8,Female,Pediatrics,Covid-19,Chemotherapy,7070,South,2026-05-11,2026-05-12
+P1496,Olivia,26,Male,Orthopedics,Fracture,Surgery,69285,East,2026-05-12,2026-05-13
+P1497,Sophia,74,Male,Neurology,Fracture,Surgery,9610,North,2026-05-13,2026-05-14
+P1498,James,34,Female,Orthopedics,Flu,Medication,79641,North,2026-05-14,2026-05-15
+P1499,Olivia,7,Female,General Medicine,Migraine,Observation,12615,East,2026-05-15,2026-05-16
+P1500,Alex,68,Male,Cardiology,Diabetes,Chemotherapy,39562,West,2026-05-16,2026-05-17
+P1501,Mary,58,Female,Neurology,Hypertension,Medication,23411,South,2026-05-17,2026-05-18
+P1502,David,75,Female,Oncology,Flu,Medication,33056,East,2026-05-18,2026-05-19
+P1503,James,29,Female,Oncology,Asthma,Surgery,78631,South,2026-05-19,2026-05-20
+P1504,Isabella,36,Female,Cardiology,Fracture,Observation,2469,North,2026-05-20,2026-05-21
+P1505,Emma,89,Female,Cardiology,Covid-19,Chemotherapy,44253,East,2026-05-21,2026-05-22
+P1506,Mary,21,Female,Oncology,Diabetes,Chemotherapy,83311,East,2026-05-22,2026-05-23
+P1507,Sophia,36,Male,Orthopedics,Covid-19,Therapy,4970,South,2026-05-23,2026-05-24
+P1508,David,10,Female,General Medicine,Cancer,Observation,10725,North,2026-05-24,2026-05-25
+P1509,Sophia,73,Female,Pediatrics,Fracture,Surgery,23696,North,2026-05-25,2026-05-26
+P1510,Sophia,24,Male,General Medicine,Cancer,Therapy,14169,East,2026-05-26,2026-05-27
+P1511,Alex,64,Female,Neurology,Cancer,Surgery,37880,South,2026-05-27,2026-05-28
+P1512,John,49,Female,General Medicine,Fracture,Medication,48820,East,2026-05-28,2026-05-29
+P1513,John,36,Male,Cardiology,Cancer,Therapy,47914,West,2026-05-29,2026-05-30
+P1514,Sophia,82,Female,Pediatrics,Flu,Surgery,16077,North,2026-05-30,2026-05-31
+P1515,Olivia,24,Female,General Medicine,Migraine,Medication,88509,North,2026-05-31,2026-06-01
+P1516,Isabella,23,Male,Pediatrics,Diabetes,Surgery,55909,East,2026-06-01,2026-06-02
+P1517,Mary,62,Male,General Medicine,Cancer,Observation,29125,East,2026-06-02,2026-06-03
+P1518,Olivia,37,Female,Oncology,Asthma,Surgery,81540,East,2026-06-03,2026-06-04
+P1519,Michael,12,Male,Pediatrics,Hypertension,Observation,24589,North,2026-06-04,2026-06-05
+P1520,Isabella,55,Female,General Medicine,Fracture,Surgery,36987,North,2026-06-05,2026-06-06
+P1521,Sophia,13,Male,Neurology,Cancer,Medication,66338,North,2026-06-06,2026-06-07
+P1522,Michael,23,Male,Pediatrics,Cancer,Observation,97499,West,2026-06-07,2026-06-08
+P1523,Olivia,89,Male,Orthopedics,Covid-19,Chemotherapy,95295,East,2026-06-08,2026-06-09
+P1524,Michael,30,Male,Cardiology,Covid-19,Observation,50638,North,2026-06-09,2026-06-10
+P1525,Sophia,17,Male,Pediatrics,Diabetes,Medication,43323,West,2026-06-10,2026-06-11
+P1526,Alex,62,Male,Oncology,Migraine,Observation,37708,East,2026-06-11,2026-06-12
+P1527,John,84,Female,Cardiology,Fracture,Surgery,54561,South,2026-06-12,2026-06-13
+P1528,Mary,89,Female,General Medicine,Covid-19,Surgery,31159,South,2026-06-13,2026-06-14
+P1529,Michael,86,Female,General Medicine,Hypertension,Chemotherapy,32390,East,2026-06-14,2026-06-15
+P1530,Sophia,13,Male,General Medicine,Hypertension,Observation,79634,East,2026-06-15,2026-06-16
+P1531,Alex,59,Female,General Medicine,Cancer,Surgery,47555,East,2026-06-16,2026-06-17
+P1532,James,19,Male,Oncology,Migraine,Observation,20008,South,2026-06-17,2026-06-18
+P1533,Olivia,49,Female,General Medicine,Migraine,Therapy,42787,West,2026-06-18,2026-06-19
+P1534,John,12,Female,Neurology,Diabetes,Surgery,79416,South,2026-06-19,2026-06-20
+P1535,James,61,Male,Cardiology,Diabetes,Observation,27484,North,2026-06-20,2026-06-21
+P1536,Sophia,19,Male,Pediatrics,Hypertension,Surgery,8625,East,2026-06-21,2026-06-22
+P1537,Mary,76,Male,Neurology,Cancer,Therapy,36559,South,2026-06-22,2026-06-23
+P1538,Olivia,9,Female,Neurology,Asthma,Therapy,70069,East,2026-06-23,2026-06-24
+P1539,Alex,71,Female,Neurology,Cancer,Surgery,17587,West,2026-06-24,2026-06-25
+P1540,Olivia,28,Female,Neurology,Cancer,Therapy,6204,North,2026-06-25,2026-06-26
+P1541,James,78,Female,Neurology,Fracture,Surgery,61076,South,2026-06-26,2026-06-27
+P1542,James,52,Male,Cardiology,Fracture,Medication,73884,West,2026-06-27,2026-06-28
+P1543,Isabella,83,Female,Pediatrics,Migraine,Chemotherapy,87628,West,2026-06-28,2026-06-29
+P1544,Emma,16,Female,Cardiology,Fracture,Medication,72960,North,2026-06-29,2026-06-30
+P1545,Olivia,69,Female,Oncology,Covid-19,Therapy,27708,North,2026-06-30,2026-07-01
+P1546,Isabella,12,Female,Pediatrics,Cancer,Surgery,85650,North,2026-07-01,2026-07-02
+P1547,James,25,Female,Neurology,Covid-19,Medication,66524,West,2026-07-02,2026-07-03
+P1548,Michael,52,Male,Oncology,Migraine,Observation,40382,South,2026-07-03,2026-07-04
+P1549,James,85,Male,Neurology,Hypertension,Observation,26423,West,2026-07-04,2026-07-05
+P1550,Olivia,53,Female,General Medicine,Hypertension,Observation,29665,South,2026-07-05,2026-07-06
+P1551,Alex,23,Female,Orthopedics,Flu,Surgery,67703,West,2026-07-06,2026-07-07
+P1552,Olivia,16,Male,Orthopedics,Hypertension,Therapy,92249,North,2026-07-07,2026-07-08
+P1553,Olivia,57,Female,Oncology,Asthma,Surgery,4614,East,2026-07-08,2026-07-09
+P1554,David,39,Female,Cardiology,Fracture,Therapy,65465,West,2026-07-09,2026-07-10
+P1555,Sophia,53,Male,Cardiology,Diabetes,Chemotherapy,36821,West,2026-07-10,2026-07-11
+P1556,David,42,Female,Pediatrics,Asthma,Surgery,73797,East,2026-07-11,2026-07-12
+P1557,James,58,Female,General Medicine,Hypertension,Chemotherapy,97152,West,2026-07-12,2026-07-13
+P1558,Olivia,39,Female,Pediatrics,Migraine,Surgery,99804,West,2026-07-13,2026-07-14
+P1559,Sophia,14,Female,General Medicine,Diabetes,Chemotherapy,25926,West,2026-07-14,2026-07-15
+P1560,David,5,Female,Orthopedics,Diabetes,Chemotherapy,18272,West,2026-07-15,2026-07-16
+P1561,Olivia,35,Female,Orthopedics,Diabetes,Surgery,4212,West,2026-07-16,2026-07-17
+P1562,Mary,87,Male,General Medicine,Covid-19,Medication,1867,South,2026-07-17,2026-07-18
+P1563,David,75,Female,Pediatrics,Flu,Observation,92236,South,2026-07-18,2026-07-19
+P1564,Sophia,18,Female,Cardiology,Flu,Chemotherapy,52424,South,2026-07-19,2026-07-20
+P1565,David,76,Female,Oncology,Migraine,Observation,4226,West,2026-07-20,2026-07-21
+P1566,Emma,9,Male,General Medicine,Diabetes,Surgery,89652,West,2026-07-21,2026-07-22
+P1567,Emma,74,Female,General Medicine,Diabetes,Chemotherapy,28223,South,2026-07-22,2026-07-23
+P1568,James,58,Male,General Medicine,Fracture,Observation,9608,North,2026-07-23,2026-07-24
+P1569,Mary,17,Female,Pediatrics,Hypertension,Observation,78214,South,2026-07-24,2026-07-25
+P1570,Alex,7,Male,Cardiology,Diabetes,Therapy,36143,West,2026-07-25,2026-07-26
+P1571,Alex,46,Female,Pediatrics,Migraine,Medication,31824,West,2026-07-26,2026-07-27
+P1572,Sophia,13,Female,Neurology,Fracture,Observation,83860,North,2026-07-27,2026-07-28
+P1573,Michael,40,Female,Neurology,Asthma,Surgery,9427,South,2026-07-28,2026-07-29
+P1574,Alex,42,Female,General Medicine,Asthma,Surgery,94180,East,2026-07-29,2026-07-30
+P1575,Sophia,9,Male,General Medicine,Fracture,Therapy,97046,North,2026-07-30,2026-07-31
+P1576,Mary,50,Male,General Medicine,Covid-19,Observation,22943,West,2026-07-31,2026-08-01
+P1577,Michael,27,Female,Cardiology,Hypertension,Chemotherapy,80473,North,2026-08-01,2026-08-02
+P1578,Michael,66,Female,Cardiology,Hypertension,Surgery,63949,North,2026-08-02,2026-08-03
+P1579,Emma,5,Male,General Medicine,Hypertension,Chemotherapy,77243,East,2026-08-03,2026-08-04
+P1580,James,29,Male,Cardiology,Flu,Surgery,60733,East,2026-08-04,2026-08-05
+P1581,Olivia,37,Male,Orthopedics,Flu,Chemotherapy,26037,North,2026-08-05,2026-08-06
+P1582,Michael,38,Male,General Medicine,Cancer,Medication,78076,South,2026-08-06,2026-08-07
+P1583,John,83,Male,Orthopedics,Cancer,Observation,23112,North,2026-08-07,2026-08-08
+P1584,Sophia,8,Male,Pediatrics,Covid-19,Medication,94477,East,2026-08-08,2026-08-09
+P1585,Michael,65,Male,Orthopedics,Covid-19,Medication,6971,East,2026-08-09,2026-08-10
+P1586,Michael,86,Male,Pediatrics,Fracture,Observation,36131,East,2026-08-10,2026-08-11
+P1587,Isabella,17,Male,Oncology,Covid-19,Chemotherapy,92559,East,2026-08-11,2026-08-12
+P1588,John,71,Female,Pediatrics,Hypertension,Medication,31848,East,2026-08-12,2026-08-13
+P1589,Isabella,89,Female,General Medicine,Hypertension,Observation,65232,West,2026-08-13,2026-08-14
+P1590,Michael,45,Female,General Medicine,Covid-19,Chemotherapy,1677,North,2026-08-14,2026-08-15
+P1591,Olivia,4,Male,Pediatrics,Migraine,Observation,5260,South,2026-08-15,2026-08-16
+P1592,John,36,Male,Cardiology,Fracture,Observation,33279,South,2026-08-16,2026-08-17
+P1593,Emma,70,Male,Neurology,Cancer,Medication,22136,West,2026-08-17,2026-08-18
+P1594,David,31,Male,Orthopedics,Covid-19,Observation,82389,North,2026-08-18,2026-08-19
+P1595,Michael,19,Female,Pediatrics,Asthma,Observation,54051,East,2026-08-19,2026-08-20
+P1596,Michael,61,Female,Neurology,Diabetes,Surgery,12056,East,2026-08-20,2026-08-21
+P1597,James,54,Female,General Medicine,Covid-19,Medication,28098,South,2026-08-21,2026-08-22
+P1598,James,39,Male,General Medicine,Fracture,Chemotherapy,12063,South,2026-08-22,2026-08-23
+P1599,Isabella,74,Female,Oncology,Cancer,Medication,47319,West,2026-08-23,2026-08-24
+P1600,Sophia,19,Female,Oncology,Migraine,Observation,74270,North,2026-08-24,2026-08-25
+P1601,Olivia,39,Female,Pediatrics,Fracture,Surgery,91555,North,2026-08-25,2026-08-26
+P1602,Sophia,67,Male,Cardiology,Hypertension,Surgery,27466,East,2026-08-26,2026-08-27
+P1603,David,45,Male,Pediatrics,Fracture,Therapy,82209,North,2026-08-27,2026-08-28
+P1604,Michael,13,Male,Orthopedics,Flu,Therapy,60389,North,2026-08-28,2026-08-29
+P1605,Olivia,58,Male,Oncology,Flu,Surgery,27487,West,2026-08-29,2026-08-30
+P1606,John,20,Male,Neurology,Hypertension,Medication,79214,West,2026-08-30,2026-08-31
+P1607,Michael,72,Female,Cardiology,Cancer,Medication,58848,East,2026-08-31,2026-09-01
+P1608,Emma,61,Male,Oncology,Fracture,Observation,25096,West,2026-09-01,2026-09-02
+P1609,Michael,39,Male,Pediatrics,Covid-19,Therapy,33674,East,2026-09-02,2026-09-03
+P1610,Alex,1,Female,Orthopedics,Flu,Surgery,64606,West,2026-09-03,2026-09-04
+P1611,Olivia,3,Female,Orthopedics,Covid-19,Observation,70467,West,2026-09-04,2026-09-05
+P1612,Alex,77,Male,Cardiology,Covid-19,Chemotherapy,59682,South,2026-09-05,2026-09-06
+P1613,Isabella,62,Female,Orthopedics,Fracture,Chemotherapy,93800,South,2026-09-06,2026-09-07
+P1614,James,63,Male,Orthopedics,Flu,Medication,87663,West,2026-09-07,2026-09-08
+P1615,John,25,Male,Orthopedics,Migraine,Observation,39810,West,2026-09-08,2026-09-09
+P1616,Michael,56,Female,Orthopedics,Fracture,Observation,56588,West,2026-09-09,2026-09-10
+P1617,Isabella,33,Male,Pediatrics,Asthma,Surgery,9406,South,2026-09-10,2026-09-11
+P1618,Isabella,38,Female,Oncology,Flu,Observation,37414,East,2026-09-11,2026-09-12
+P1619,John,6,Female,Oncology,Cancer,Surgery,45879,North,2026-09-12,2026-09-13
+P1620,Mary,58,Female,Cardiology,Asthma,Therapy,79112,West,2026-09-13,2026-09-14
+P1621,Michael,44,Female,Neurology,Migraine,Observation,38150,West,2026-09-14,2026-09-15
+P1622,Alex,45,Male,Neurology,Migraine,Medication,47381,South,2026-09-15,2026-09-16
+P1623,Olivia,32,Female,Orthopedics,Migraine,Medication,46913,West,2026-09-16,2026-09-17
+P1624,Alex,45,Female,Oncology,Asthma,Observation,6512,East,2026-09-17,2026-09-18
+P1625,John,61,Male,Pediatrics,Hypertension,Therapy,50615,North,2026-09-18,2026-09-19
+P1626,David,47,Male,Orthopedics,Migraine,Chemotherapy,7651,West,2026-09-19,2026-09-20
+P1627,Michael,21,Female,Orthopedics,Migraine,Medication,58216,East,2026-09-20,2026-09-21
+P1628,Emma,80,Male,Oncology,Asthma,Therapy,94247,North,2026-09-21,2026-09-22
+P1629,Sophia,85,Female,Pediatrics,Fracture,Observation,93153,South,2026-09-22,2026-09-23
+P1630,Olivia,75,Female,General Medicine,Diabetes,Therapy,36878,North,2026-09-23,2026-09-24
+P1631,Emma,36,Male,Oncology,Migraine,Chemotherapy,43152,East,2026-09-24,2026-09-25
+P1632,Emma,19,Male,Cardiology,Asthma,Chemotherapy,72930,North,2026-09-25,2026-09-26
+P1633,Michael,20,Female,Neurology,Fracture,Chemotherapy,13967,North,2026-09-26,2026-09-27
+P1634,David,57,Female,Pediatrics,Fracture,Surgery,31510,South,2026-09-27,2026-09-28
+P1635,Michael,18,Male,Neurology,Fracture,Medication,55191,North,2026-09-28,2026-09-29
+P1636,David,47,Male,Pediatrics,Migraine,Chemotherapy,64657,South,2026-09-29,2026-09-30
+P1637,Mary,49,Female,Oncology,Asthma,Therapy,12789,West,2026-09-30,2026-10-01
+P1638,Olivia,14,Female,Pediatrics,Diabetes,Medication,45476,North,2026-10-01,2026-10-02
+P1639,John,15,Female,General Medicine,Hypertension,Chemotherapy,44096,North,2026-10-02,2026-10-03
+P1640,James,31,Male,Orthopedics,Hypertension,Therapy,23671,South,2026-10-03,2026-10-04
+P1641,John,1,Female,Cardiology,Fracture,Medication,86865,North,2026-10-04,2026-10-05
+P1642,Emma,54,Male,General Medicine,Diabetes,Medication,44639,East,2026-10-05,2026-10-06
+P1643,Sophia,3,Male,Neurology,Covid-19,Observation,49213,South,2026-10-06,2026-10-07
+P1644,Mary,16,Male,Cardiology,Covid-19,Therapy,30234,South,2026-10-07,2026-10-08
+P1645,John,87,Female,Orthopedics,Fracture,Observation,73088,West,2026-10-08,2026-10-09
+P1646,John,57,Female,Oncology,Covid-19,Chemotherapy,64146,North,2026-10-09,2026-10-10
+P1647,Sophia,75,Male,General Medicine,Asthma,Medication,4154,East,2026-10-10,2026-10-11
+P1648,Sophia,12,Male,Pediatrics,Cancer,Therapy,89522,West,2026-10-11,2026-10-12
+P1649,John,74,Female,Neurology,Flu,Therapy,19243,North,2026-10-12,2026-10-13
+P1650,Isabella,16,Female,General Medicine,Hypertension,Surgery,48868,West,2026-10-13,2026-10-14
+P1651,Alex,72,Male,General Medicine,Flu,Chemotherapy,90525,North,2026-10-14,2026-10-15
+P1652,Sophia,76,Female,Cardiology,Flu,Medication,74672,East,2026-10-15,2026-10-16
+P1653,Alex,24,Female,Neurology,Hypertension,Chemotherapy,6941,West,2026-10-16,2026-10-17
+P1654,Olivia,28,Female,Neurology,Diabetes,Surgery,25111,South,2026-10-17,2026-10-18
+P1655,Mary,8,Female,Neurology,Fracture,Surgery,12649,West,2026-10-18,2026-10-19
+P1656,Isabella,36,Male,Cardiology,Fracture,Therapy,59689,North,2026-10-19,2026-10-20
+P1657,Sophia,8,Female,Neurology,Hypertension,Surgery,22175,East,2026-10-20,2026-10-21
+P1658,Olivia,58,Female,Cardiology,Covid-19,Chemotherapy,71531,West,2026-10-21,2026-10-22
+P1659,David,60,Male,Pediatrics,Flu,Medication,43168,East,2026-10-22,2026-10-23
+P1660,Emma,50,Male,Cardiology,Asthma,Observation,14173,North,2026-10-23,2026-10-24
+P1661,Alex,28,Male,Orthopedics,Diabetes,Chemotherapy,77166,North,2026-10-24,2026-10-25
+P1662,Isabella,41,Female,Oncology,Hypertension,Surgery,88704,North,2026-10-25,2026-10-26
+P1663,Isabella,64,Female,Neurology,Flu,Surgery,81258,South,2026-10-26,2026-10-27
+P1664,Mary,27,Male,Orthopedics,Covid-19,Therapy,65929,East,2026-10-27,2026-10-28
+P1665,Alex,63,Female,Orthopedics,Asthma,Therapy,24169,South,2026-10-28,2026-10-29
+P1666,David,17,Female,Pediatrics,Cancer,Therapy,34568,South,2026-10-29,2026-10-30
+P1667,Mary,73,Male,General Medicine,Migraine,Chemotherapy,89289,East,2026-10-30,2026-10-31
+P1668,Isabella,33,Female,Pediatrics,Fracture,Observation,9935,North,2026-10-31,2026-11-01
+P1669,John,84,Female,Oncology,Covid-19,Therapy,94588,South,2026-11-01,2026-11-02
+P1670,David,77,Male,Cardiology,Cancer,Medication,52749,East,2026-11-02,2026-11-03
+P1671,Isabella,29,Male,Oncology,Covid-19,Medication,37884,West,2026-11-03,2026-11-04
+P1672,Michael,13,Male,Cardiology,Flu,Therapy,82429,South,2026-11-04,2026-11-05
+P1673,Michael,46,Female,Neurology,Cancer,Therapy,76653,North,2026-11-05,2026-11-06
+P1674,Sophia,35,Male,Orthopedics,Diabetes,Observation,75888,East,2026-11-06,2026-11-07
+P1675,Mary,6,Female,Pediatrics,Hypertension,Observation,31901,South,2026-11-07,2026-11-08
+P1676,Isabella,82,Female,General Medicine,Flu,Chemotherapy,72331,North,2026-11-08,2026-11-09
+P1677,Sophia,69,Female,Pediatrics,Fracture,Chemotherapy,34584,North,2026-11-09,2026-11-10
+P1678,Mary,47,Female,Neurology,Migraine,Medication,56326,East,2026-11-10,2026-11-11
+P1679,David,25,Male,Pediatrics,Diabetes,Observation,36951,West,2026-11-11,2026-11-12
+P1680,Isabella,66,Male,General Medicine,Covid-19,Chemotherapy,7727,North,2026-11-12,2026-11-13
+P1681,Mary,10,Male,General Medicine,Hypertension,Chemotherapy,32410,East,2026-11-13,2026-11-14
+P1682,Isabella,56,Female,Orthopedics,Asthma,Therapy,36541,South,2026-11-14,2026-11-15
+P1683,John,30,Female,Orthopedics,Fracture,Observation,89420,West,2026-11-15,2026-11-16
+P1684,Emma,5,Male,Neurology,Migraine,Chemotherapy,66181,East,2026-11-16,2026-11-17
+P1685,James,33,Male,Orthopedics,Flu,Therapy,82071,East,2026-11-17,2026-11-18
+P1686,Michael,65,Male,Oncology,Diabetes,Medication,65981,West,2026-11-18,2026-11-19
+P1687,Emma,18,Male,Oncology,Asthma,Surgery,69076,North,2026-11-19,2026-11-20
+P1688,Mary,49,Male,Cardiology,Migraine,Observation,64674,North,2026-11-20,2026-11-21
+P1689,James,11,Male,Orthopedics,Covid-19,Medication,26660,South,2026-11-21,2026-11-22
+P1690,Emma,85,Female,Cardiology,Asthma,Medication,18133,South,2026-11-22,2026-11-23
+P1691,John,26,Female,Pediatrics,Flu,Observation,95380,South,2026-11-23,2026-11-24
+P1692,Michael,63,Male,Cardiology,Asthma,Surgery,17514,West,2026-11-24,2026-11-25
+P1693,Olivia,89,Male,Neurology,Covid-19,Therapy,81032,West,2026-11-25,2026-11-26
+P1694,Mary,86,Female,General Medicine,Diabetes,Medication,49604,North,2026-11-26,2026-11-27
+P1695,Michael,59,Male,Neurology,Asthma,Medication,42121,East,2026-11-27,2026-11-28
+P1696,Emma,27,Female,Neurology,Covid-19,Surgery,77731,North,2026-11-28,2026-11-29
+P1697,Olivia,49,Male,Oncology,Migraine,Therapy,68888,East,2026-11-29,2026-11-30
+P1698,Alex,77,Female,Neurology,Fracture,Medication,16514,West,2026-11-30,2026-12-01
+P1699,Michael,33,Male,Oncology,Cancer,Surgery,93078,West,2026-12-01,2026-12-02
+P1700,Alex,1,Female,Neurology,Hypertension,Observation,34255,North,2026-12-02,2026-12-03
+P1701,James,21,Female,Orthopedics,Flu,Surgery,40890,West,2026-12-03,2026-12-04
+P1702,David,55,Male,Oncology,Diabetes,Surgery,24211,North,2026-12-04,2026-12-05
+P1703,Isabella,6,Female,Pediatrics,Fracture,Chemotherapy,92158,West,2026-12-05,2026-12-06
+P1704,James,81,Female,General Medicine,Covid-19,Medication,58493,South,2026-12-06,2026-12-07
+P1705,Olivia,69,Male,Cardiology,Fracture,Therapy,75196,North,2026-12-07,2026-12-08
+P1706,Olivia,5,Female,Oncology,Asthma,Observation,27713,East,2026-12-08,2026-12-09
+P1707,Michael,3,Female,Cardiology,Cancer,Chemotherapy,58284,North,2026-12-09,2026-12-10
+P1708,Isabella,53,Male,Pediatrics,Flu,Surgery,7921,South,2026-12-10,2026-12-11
+P1709,David,23,Male,Neurology,Asthma,Observation,87436,South,2026-12-11,2026-12-12
+P1710,Emma,53,Male,Oncology,Diabetes,Therapy,99573,East,2026-12-12,2026-12-13
+P1711,Sophia,37,Male,Neurology,Asthma,Observation,18227,West,2026-12-13,2026-12-14
+P1712,Mary,74,Female,General Medicine,Migraine,Observation,4858,West,2026-12-14,2026-12-15
+P1713,David,74,Female,Cardiology,Cancer,Medication,65608,North,2026-12-15,2026-12-16
+P1714,Olivia,83,Male,Neurology,Flu,Therapy,94518,South,2026-12-16,2026-12-17
+P1715,Sophia,17,Male,Orthopedics,Hypertension,Surgery,32617,South,2026-12-17,2026-12-18
+P1716,Olivia,85,Male,General Medicine,Fracture,Medication,89200,East,2026-12-18,2026-12-19
+P1717,Isabella,78,Female,Orthopedics,Diabetes,Medication,32410,South,2026-12-19,2026-12-20
+P1718,Isabella,73,Male,Oncology,Migraine,Surgery,98532,South,2026-12-20,2026-12-21
+P1719,Michael,1,Female,Oncology,Asthma,Chemotherapy,56254,West,2026-12-21,2026-12-22
+P1720,Emma,51,Female,Oncology,Flu,Therapy,62938,West,2026-12-22,2026-12-23
+P1721,John,45,Male,Orthopedics,Flu,Observation,29871,North,2026-12-23,2026-12-24
+P1722,Olivia,77,Male,Pediatrics,Covid-19,Chemotherapy,52001,North,2026-12-24,2026-12-25
+P1723,Emma,4,Female,Pediatrics,Hypertension,Therapy,61446,West,2026-12-25,2026-12-26
+P1724,Alex,62,Female,Orthopedics,Cancer,Therapy,38967,East,2026-12-26,2026-12-27
+P1725,Olivia,65,Female,Pediatrics,Diabetes,Observation,18125,South,2026-12-27,2026-12-28
+P1726,Sophia,32,Female,Orthopedics,Asthma,Chemotherapy,34393,North,2026-12-28,2026-12-29
+P1727,Emma,34,Female,Neurology,Hypertension,Chemotherapy,76829,North,2026-12-29,2026-12-30
+P1728,David,72,Female,Pediatrics,Covid-19,Chemotherapy,31507,West,2026-12-30,2026-12-31
+P1729,Emma,39,Male,Orthopedics,Diabetes,Observation,91802,East,2026-12-31,2027-01-01
+P1730,David,26,Male,Oncology,Cancer,Observation,40032,East,2027-01-01,2027-01-02
+P1731,Isabella,34,Female,General Medicine,Flu,Therapy,54753,West,2027-01-02,2027-01-03
+P1732,David,54,Male,General Medicine,Flu,Chemotherapy,12823,East,2027-01-03,2027-01-04
+P1733,James,3,Male,Pediatrics,Cancer,Surgery,73879,South,2027-01-04,2027-01-05
+P1734,John,50,Female,General Medicine,Hypertension,Therapy,14710,East,2027-01-05,2027-01-06
+P1735,James,12,Male,Cardiology,Diabetes,Surgery,16956,North,2027-01-06,2027-01-07
+P1736,Sophia,65,Male,Cardiology,Hypertension,Therapy,31867,South,2027-01-07,2027-01-08
+P1737,Mary,54,Male,General Medicine,Covid-19,Surgery,55124,North,2027-01-08,2027-01-09
+P1738,Sophia,5,Male,Oncology,Asthma,Observation,10606,East,2027-01-09,2027-01-10
+P1739,Michael,57,Female,Orthopedics,Cancer,Therapy,68508,North,2027-01-10,2027-01-11
+P1740,Olivia,17,Female,General Medicine,Cancer,Therapy,72740,West,2027-01-11,2027-01-12
+P1741,James,47,Female,Oncology,Covid-19,Medication,64815,North,2027-01-12,2027-01-13
+P1742,Sophia,23,Female,General Medicine,Asthma,Surgery,69749,South,2027-01-13,2027-01-14
+P1743,Olivia,79,Male,General Medicine,Flu,Therapy,71087,East,2027-01-14,2027-01-15
+P1744,Olivia,85,Male,Orthopedics,Migraine,Therapy,11256,West,2027-01-15,2027-01-16
+P1745,Olivia,14,Female,Orthopedics,Cancer,Observation,68511,South,2027-01-16,2027-01-17
+P1746,John,66,Female,Oncology,Hypertension,Surgery,36878,East,2027-01-17,2027-01-18
+P1747,Mary,75,Male,Cardiology,Fracture,Chemotherapy,4755,East,2027-01-18,2027-01-19
+P1748,David,51,Female,Pediatrics,Flu,Surgery,14984,East,2027-01-19,2027-01-20
+P1749,Sophia,38,Male,Cardiology,Covid-19,Chemotherapy,57049,West,2027-01-20,2027-01-21
+P1750,Michael,64,Male,Orthopedics,Covid-19,Therapy,35003,East,2027-01-21,2027-01-22
+P1751,Sophia,38,Male,Orthopedics,Fracture,Surgery,74294,South,2027-01-22,2027-01-23
+P1752,David,50,Female,Oncology,Covid-19,Surgery,45613,East,2027-01-23,2027-01-24
+P1753,Isabella,82,Male,Orthopedics,Asthma,Surgery,74569,East,2027-01-24,2027-01-25
+P1754,Emma,30,Male,Orthopedics,Hypertension,Surgery,98617,South,2027-01-25,2027-01-26
+P1755,Olivia,79,Male,Orthopedics,Cancer,Surgery,5749,West,2027-01-26,2027-01-27
+P1756,James,51,Male,Oncology,Cancer,Medication,19701,East,2027-01-27,2027-01-28
+P1757,James,63,Male,Oncology,Covid-19,Medication,59076,North,2027-01-28,2027-01-29
+P1758,Emma,52,Male,Oncology,Fracture,Therapy,10186,South,2027-01-29,2027-01-30
+P1759,Michael,38,Female,Orthopedics,Hypertension,Chemotherapy,53863,North,2027-01-30,2027-01-31
+P1760,James,88,Male,Neurology,Diabetes,Surgery,98043,West,2027-01-31,2027-02-01
+P1761,Emma,79,Male,Neurology,Hypertension,Observation,1161,North,2027-02-01,2027-02-02
+P1762,Emma,30,Male,General Medicine,Covid-19,Therapy,45343,North,2027-02-02,2027-02-03
+P1763,Olivia,51,Female,Neurology,Fracture,Therapy,96173,South,2027-02-03,2027-02-04
+P1764,David,81,Female,Cardiology,Fracture,Surgery,61463,West,2027-02-04,2027-02-05
+P1765,David,5,Male,General Medicine,Cancer,Surgery,43328,West,2027-02-05,2027-02-06
+P1766,David,29,Male,Pediatrics,Covid-19,Chemotherapy,49104,West,2027-02-06,2027-02-07
+P1767,Sophia,4,Male,Oncology,Flu,Medication,11026,North,2027-02-07,2027-02-08
+P1768,Mary,10,Male,Orthopedics,Migraine,Therapy,69410,North,2027-02-08,2027-02-09
+P1769,Sophia,56,Female,Oncology,Hypertension,Therapy,26092,North,2027-02-09,2027-02-10
+P1770,Emma,17,Male,Neurology,Flu,Surgery,29482,West,2027-02-10,2027-02-11
+P1771,Mary,74,Female,Oncology,Cancer,Therapy,707,North,2027-02-11,2027-02-12
+P1772,James,17,Female,Cardiology,Asthma,Observation,89233,East,2027-02-12,2027-02-13
+P1773,Alex,84,Male,Oncology,Cancer,Chemotherapy,99436,West,2027-02-13,2027-02-14
+P1774,Sophia,88,Female,Pediatrics,Diabetes,Surgery,69119,East,2027-02-14,2027-02-15
+P1775,Sophia,69,Male,Orthopedics,Migraine,Chemotherapy,29828,West,2027-02-15,2027-02-16
+P1776,Olivia,34,Male,Orthopedics,Asthma,Therapy,46979,South,2027-02-16,2027-02-17
+P1777,David,6,Female,Pediatrics,Covid-19,Medication,20603,North,2027-02-17,2027-02-18
+P1778,Isabella,53,Female,Pediatrics,Hypertension,Medication,40391,North,2027-02-18,2027-02-19
+P1779,James,66,Female,Pediatrics,Fracture,Observation,11254,West,2027-02-19,2027-02-20
+P1780,Isabella,77,Male,Oncology,Cancer,Observation,81937,East,2027-02-20,2027-02-21
+P1781,David,43,Male,Cardiology,Migraine,Surgery,99040,South,2027-02-21,2027-02-22
+P1782,Mary,75,Female,General Medicine,Cancer,Observation,73482,West,2027-02-22,2027-02-23
+P1783,Sophia,23,Female,Oncology,Diabetes,Therapy,56422,North,2027-02-23,2027-02-24
+P1784,David,55,Male,General Medicine,Diabetes,Surgery,48731,South,2027-02-24,2027-02-25
+P1785,Sophia,80,Female,Neurology,Diabetes,Medication,29801,North,2027-02-25,2027-02-26
+P1786,Emma,75,Female,Orthopedics,Flu,Chemotherapy,92152,East,2027-02-26,2027-02-27
+P1787,Alex,16,Female,Oncology,Hypertension,Chemotherapy,63211,East,2027-02-27,2027-02-28
+P1788,David,8,Female,Oncology,Hypertension,Therapy,41823,South,2027-02-28,2027-03-01
+P1789,John,4,Female,Neurology,Flu,Therapy,19252,North,2027-03-01,2027-03-02
+P1790,James,4,Male,Oncology,Asthma,Observation,98412,East,2027-03-02,2027-03-03
+P1791,Alex,56,Female,General Medicine,Diabetes,Therapy,82705,South,2027-03-03,2027-03-04
+P1792,David,25,Female,Oncology,Covid-19,Chemotherapy,98952,South,2027-03-04,2027-03-05
+P1793,John,67,Male,Pediatrics,Asthma,Surgery,13895,West,2027-03-05,2027-03-06
+P1794,John,67,Female,Oncology,Diabetes,Chemotherapy,86457,East,2027-03-06,2027-03-07
+P1795,James,27,Male,Orthopedics,Flu,Observation,56773,North,2027-03-07,2027-03-08
+P1796,David,32,Male,General Medicine,Migraine,Therapy,92378,East,2027-03-08,2027-03-09
+P1797,Alex,50,Female,Orthopedics,Covid-19,Medication,5395,West,2027-03-09,2027-03-10
+P1798,Olivia,61,Male,Neurology,Fracture,Observation,77059,South,2027-03-10,2027-03-11
+P1799,Mary,51,Female,Oncology,Flu,Medication,11199,North,2027-03-11,2027-03-12
+P1800,John,19,Male,General Medicine,Cancer,Surgery,65561,South,2027-03-12,2027-03-13
+P1801,Isabella,21,Female,Neurology,Asthma,Chemotherapy,10215,West,2027-03-13,2027-03-14
+P1802,David,5,Female,Orthopedics,Diabetes,Medication,19669,North,2027-03-14,2027-03-15
+P1803,Olivia,82,Male,Cardiology,Flu,Therapy,16663,East,2027-03-15,2027-03-16
+P1804,Olivia,42,Female,Pediatrics,Asthma,Medication,6282,West,2027-03-16,2027-03-17
+P1805,Olivia,61,Male,Neurology,Covid-19,Observation,88677,South,2027-03-17,2027-03-18
+P1806,Emma,22,Female,Oncology,Diabetes,Chemotherapy,84828,South,2027-03-18,2027-03-19
+P1807,Alex,21,Male,Orthopedics,Covid-19,Surgery,36085,South,2027-03-19,2027-03-20
+P1808,John,70,Female,Oncology,Flu,Observation,31182,North,2027-03-20,2027-03-21
+P1809,David,1,Male,General Medicine,Cancer,Therapy,48364,South,2027-03-21,2027-03-22
+P1810,Olivia,5,Female,Neurology,Migraine,Medication,84916,North,2027-03-22,2027-03-23
+P1811,Mary,12,Female,Oncology,Cancer,Therapy,55614,South,2027-03-23,2027-03-24
+P1812,Mary,46,Male,Orthopedics,Flu,Medication,38567,East,2027-03-24,2027-03-25
+P1813,Michael,34,Male,Oncology,Fracture,Chemotherapy,43185,South,2027-03-25,2027-03-26
+P1814,Olivia,49,Male,Cardiology,Flu,Surgery,18573,East,2027-03-26,2027-03-27
+P1815,Mary,78,Female,Neurology,Diabetes,Chemotherapy,36535,South,2027-03-27,2027-03-28
+P1816,Isabella,45,Female,Orthopedics,Fracture,Chemotherapy,65477,North,2027-03-28,2027-03-29
+P1817,John,27,Male,Neurology,Diabetes,Surgery,90873,East,2027-03-29,2027-03-30
+P1818,Alex,73,Male,Oncology,Asthma,Therapy,83862,West,2027-03-30,2027-03-31
+P1819,Alex,26,Male,Orthopedics,Diabetes,Surgery,91017,North,2027-03-31,2027-04-01
+P1820,Isabella,47,Male,Pediatrics,Diabetes,Medication,65950,West,2027-04-01,2027-04-02
+P1821,David,86,Female,Orthopedics,Asthma,Medication,10882,North,2027-04-02,2027-04-03
+P1822,Mary,56,Male,Orthopedics,Migraine,Chemotherapy,4937,East,2027-04-03,2027-04-04
+P1823,Sophia,63,Female,Orthopedics,Asthma,Observation,71471,West,2027-04-04,2027-04-05
+P1824,Mary,48,Female,General Medicine,Asthma,Medication,65112,West,2027-04-05,2027-04-06
+P1825,James,61,Male,Orthopedics,Asthma,Chemotherapy,90855,East,2027-04-06,2027-04-07
+P1826,Michael,81,Male,Pediatrics,Hypertension,Observation,62429,North,2027-04-07,2027-04-08
+P1827,Isabella,26,Male,Cardiology,Migraine,Surgery,98018,West,2027-04-08,2027-04-09
+P1828,Isabella,36,Male,Pediatrics,Diabetes,Observation,99364,West,2027-04-09,2027-04-10
+P1829,Isabella,1,Female,Cardiology,Cancer,Therapy,12829,East,2027-04-10,2027-04-11
+P1830,Sophia,8,Male,Oncology,Covid-19,Chemotherapy,25669,North,2027-04-11,2027-04-12
+P1831,James,52,Male,General Medicine,Migraine,Chemotherapy,87968,South,2027-04-12,2027-04-13
+P1832,Michael,79,Female,General Medicine,Diabetes,Chemotherapy,35094,North,2027-04-13,2027-04-14
+P1833,Olivia,47,Male,General Medicine,Hypertension,Medication,77457,East,2027-04-14,2027-04-15
+P1834,Olivia,56,Female,Cardiology,Hypertension,Therapy,61131,West,2027-04-15,2027-04-16
+P1835,David,86,Female,Pediatrics,Migraine,Observation,45533,West,2027-04-16,2027-04-17
+P1836,Isabella,14,Female,Neurology,Cancer,Surgery,63633,East,2027-04-17,2027-04-18
+P1837,Michael,28,Female,General Medicine,Hypertension,Observation,73665,North,2027-04-18,2027-04-19
+P1838,David,87,Female,Cardiology,Covid-19,Therapy,74361,West,2027-04-19,2027-04-20
+P1839,Isabella,78,Female,Oncology,Cancer,Observation,52790,South,2027-04-20,2027-04-21
+P1840,Isabella,88,Female,Pediatrics,Cancer,Therapy,94531,East,2027-04-21,2027-04-22
+P1841,John,2,Female,General Medicine,Cancer,Medication,32250,North,2027-04-22,2027-04-23
+P1842,Isabella,26,Female,Orthopedics,Cancer,Therapy,95655,North,2027-04-23,2027-04-24
+P1843,Mary,14,Female,Pediatrics,Migraine,Therapy,40961,South,2027-04-24,2027-04-25
+P1844,Sophia,59,Male,Cardiology,Migraine,Therapy,74300,West,2027-04-25,2027-04-26
+P1845,Sophia,56,Female,Neurology,Cancer,Therapy,78722,North,2027-04-26,2027-04-27
+P1846,David,7,Female,Neurology,Asthma,Observation,24726,South,2027-04-27,2027-04-28
+P1847,Mary,3,Male,Neurology,Asthma,Chemotherapy,7221,South,2027-04-28,2027-04-29
+P1848,Alex,23,Female,Orthopedics,Migraine,Medication,56654,South,2027-04-29,2027-04-30
+P1849,Sophia,18,Female,Pediatrics,Fracture,Surgery,21109,East,2027-04-30,2027-05-01
+P1850,Alex,38,Female,General Medicine,Cancer,Observation,52630,East,2027-05-01,2027-05-02
+P1851,James,15,Male,Pediatrics,Covid-19,Observation,73409,North,2027-05-02,2027-05-03
+P1852,Mary,64,Male,Neurology,Covid-19,Observation,55749,North,2027-05-03,2027-05-04
+P1853,Alex,89,Male,Orthopedics,Migraine,Therapy,49395,North,2027-05-04,2027-05-05
+P1854,John,28,Male,Oncology,Flu,Surgery,94973,West,2027-05-05,2027-05-06
+P1855,Michael,74,Female,Neurology,Flu,Observation,6156,West,2027-05-06,2027-05-07
+P1856,Olivia,39,Female,Cardiology,Fracture,Observation,75020,North,2027-05-07,2027-05-08
+P1857,Isabella,57,Female,Pediatrics,Flu,Surgery,64240,East,2027-05-08,2027-05-09
+P1858,Olivia,17,Male,Orthopedics,Hypertension,Chemotherapy,64809,East,2027-05-09,2027-05-10
+P1859,David,86,Male,Oncology,Fracture,Chemotherapy,30484,South,2027-05-10,2027-05-11
+P1860,John,44,Female,Neurology,Flu,Medication,74322,North,2027-05-11,2027-05-12
+P1861,Sophia,25,Male,Orthopedics,Fracture,Surgery,6401,West,2027-05-12,2027-05-13
+P1862,David,17,Female,Oncology,Asthma,Surgery,32052,South,2027-05-13,2027-05-14
+P1863,David,13,Male,Cardiology,Asthma,Therapy,91745,East,2027-05-14,2027-05-15
+P1864,Olivia,84,Female,Cardiology,Cancer,Observation,31555,North,2027-05-15,2027-05-16
+P1865,Mary,25,Female,Pediatrics,Flu,Chemotherapy,38185,East,2027-05-16,2027-05-17
+P1866,Sophia,68,Female,Orthopedics,Fracture,Therapy,74465,South,2027-05-17,2027-05-18
+P1867,David,10,Female,Neurology,Hypertension,Medication,15216,North,2027-05-18,2027-05-19
+P1868,Isabella,67,Female,Neurology,Diabetes,Chemotherapy,11638,West,2027-05-19,2027-05-20
+P1869,Sophia,18,Female,General Medicine,Flu,Observation,35798,North,2027-05-20,2027-05-21
+P1870,Michael,86,Male,Neurology,Covid-19,Medication,51612,West,2027-05-21,2027-05-22
+P1871,Mary,34,Female,Pediatrics,Cancer,Medication,23929,North,2027-05-22,2027-05-23
+P1872,James,8,Male,Cardiology,Hypertension,Observation,50700,North,2027-05-23,2027-05-24
+P1873,Sophia,40,Male,Neurology,Hypertension,Therapy,71808,North,2027-05-24,2027-05-25
+P1874,Alex,83,Female,General Medicine,Fracture,Observation,48744,North,2027-05-25,2027-05-26
+P1875,David,42,Male,Pediatrics,Cancer,Surgery,17847,West,2027-05-26,2027-05-27
+P1876,Alex,41,Male,Oncology,Asthma,Chemotherapy,17420,East,2027-05-27,2027-05-28
+P1877,Mary,6,Male,Pediatrics,Asthma,Observation,32322,North,2027-05-28,2027-05-29
+P1878,John,52,Male,Pediatrics,Fracture,Chemotherapy,47159,South,2027-05-29,2027-05-30
+P1879,Alex,26,Male,Pediatrics,Fracture,Surgery,40608,North,2027-05-30,2027-05-31
+P1880,David,64,Male,Pediatrics,Diabetes,Surgery,89599,West,2027-05-31,2027-06-01
+P1881,Isabella,59,Female,Pediatrics,Migraine,Surgery,8467,North,2027-06-01,2027-06-02
+P1882,Isabella,56,Male,Cardiology,Asthma,Observation,12371,East,2027-06-02,2027-06-03
+P1883,David,59,Male,Cardiology,Diabetes,Therapy,94799,West,2027-06-03,2027-06-04
+P1884,Olivia,70,Male,General Medicine,Cancer,Chemotherapy,77952,North,2027-06-04,2027-06-05
+P1885,Mary,33,Male,Neurology,Covid-19,Observation,74770,North,2027-06-05,2027-06-06
+P1886,Olivia,53,Male,Oncology,Hypertension,Medication,34113,North,2027-06-06,2027-06-07
+P1887,David,22,Male,Orthopedics,Covid-19,Therapy,28679,North,2027-06-07,2027-06-08
+P1888,Michael,21,Female,Cardiology,Diabetes,Chemotherapy,52688,East,2027-06-08,2027-06-09
+P1889,David,70,Female,Orthopedics,Fracture,Therapy,55599,West,2027-06-09,2027-06-10
+P1890,James,70,Male,General Medicine,Flu,Observation,35762,West,2027-06-10,2027-06-11
+P1891,James,4,Female,Neurology,Migraine,Chemotherapy,78713,North,2027-06-11,2027-06-12
+P1892,Olivia,75,Female,Cardiology,Diabetes,Observation,18768,West,2027-06-12,2027-06-13
+P1893,Olivia,62,Male,Oncology,Flu,Surgery,78366,South,2027-06-13,2027-06-14
+P1894,Mary,62,Male,Cardiology,Cancer,Medication,86769,North,2027-06-14,2027-06-15
+P1895,Isabella,24,Female,Oncology,Cancer,Medication,61045,West,2027-06-15,2027-06-16
+P1896,John,55,Male,Oncology,Migraine,Surgery,93322,West,2027-06-16,2027-06-17
+P1897,Michael,9,Male,Neurology,Migraine,Therapy,72646,West,2027-06-17,2027-06-18
+P1898,Emma,3,Female,Neurology,Diabetes,Therapy,72466,West,2027-06-18,2027-06-19
+P1899,Isabella,31,Female,Oncology,Asthma,Observation,40422,North,2027-06-19,2027-06-20
+P1900,David,40,Male,Orthopedics,Flu,Medication,79864,East,2027-06-20,2027-06-21
+P1901,John,36,Female,Orthopedics,Migraine,Therapy,43413,North,2027-06-21,2027-06-22
+P1902,Mary,24,Male,Neurology,Flu,Observation,97533,West,2027-06-22,2027-06-23
+P1903,Sophia,6,Male,Cardiology,Fracture,Surgery,56177,East,2027-06-23,2027-06-24
+P1904,Isabella,66,Male,Pediatrics,Flu,Observation,50341,South,2027-06-24,2027-06-25
+P1905,Isabella,84,Male,General Medicine,Cancer,Surgery,46832,North,2027-06-25,2027-06-26
+P1906,John,75,Male,General Medicine,Hypertension,Medication,92562,North,2027-06-26,2027-06-27
+P1907,David,4,Male,Orthopedics,Cancer,Medication,96194,North,2027-06-27,2027-06-28
+P1908,Isabella,79,Female,Neurology,Asthma,Therapy,25532,North,2027-06-28,2027-06-29
+P1909,John,6,Female,Cardiology,Hypertension,Observation,38346,South,2027-06-29,2027-06-30
+P1910,Alex,51,Female,Cardiology,Flu,Medication,59974,South,2027-06-30,2027-07-01
+P1911,Olivia,62,Female,Orthopedics,Migraine,Chemotherapy,45436,East,2027-07-01,2027-07-02
+P1912,James,57,Male,Orthopedics,Covid-19,Therapy,30294,East,2027-07-02,2027-07-03
+P1913,Olivia,66,Female,Pediatrics,Diabetes,Chemotherapy,62088,West,2027-07-03,2027-07-04
+P1914,David,79,Female,Oncology,Asthma,Observation,71484,West,2027-07-04,2027-07-05
+P1915,Alex,75,Female,General Medicine,Migraine,Chemotherapy,50831,West,2027-07-05,2027-07-06
+P1916,Isabella,8,Male,General Medicine,Fracture,Observation,94897,South,2027-07-06,2027-07-07
+P1917,Michael,26,Male,General Medicine,Migraine,Therapy,28641,South,2027-07-07,2027-07-08
+P1918,Olivia,51,Female,Orthopedics,Hypertension,Observation,9574,South,2027-07-08,2027-07-09
+P1919,Mary,45,Male,Pediatrics,Hypertension,Medication,6906,North,2027-07-09,2027-07-10
+P1920,Olivia,44,Male,Oncology,Cancer,Therapy,97859,North,2027-07-10,2027-07-11
+P1921,Emma,5,Male,Neurology,Diabetes,Chemotherapy,23791,South,2027-07-11,2027-07-12
+P1922,Michael,70,Female,Orthopedics,Covid-19,Chemotherapy,42068,East,2027-07-12,2027-07-13
+P1923,Emma,26,Female,Pediatrics,Flu,Medication,98039,West,2027-07-13,2027-07-14
+P1924,Emma,68,Female,Orthopedics,Migraine,Therapy,47351,East,2027-07-14,2027-07-15
+P1925,Mary,19,Female,Neurology,Fracture,Surgery,55323,East,2027-07-15,2027-07-16
+P1926,Alex,84,Male,Neurology,Diabetes,Chemotherapy,23812,South,2027-07-16,2027-07-17
+P1927,Emma,20,Male,Pediatrics,Migraine,Medication,43608,South,2027-07-17,2027-07-18
+P1928,Michael,12,Male,Cardiology,Migraine,Surgery,67418,West,2027-07-18,2027-07-19
+P1929,Olivia,47,Male,Neurology,Hypertension,Therapy,34671,East,2027-07-19,2027-07-20
+P1930,David,1,Female,Neurology,Hypertension,Observation,42279,East,2027-07-20,2027-07-21
+P1931,Michael,14,Female,Oncology,Covid-19,Surgery,69328,East,2027-07-21,2027-07-22
+P1932,James,64,Female,Neurology,Asthma,Therapy,99223,East,2027-07-22,2027-07-23
+P1933,John,38,Male,Neurology,Covid-19,Surgery,12911,North,2027-07-23,2027-07-24
+P1934,Olivia,37,Male,Oncology,Migraine,Medication,57509,South,2027-07-24,2027-07-25
+P1935,Mary,11,Male,Cardiology,Asthma,Therapy,15922,North,2027-07-25,2027-07-26
+P1936,Emma,77,Male,General Medicine,Asthma,Therapy,42968,South,2027-07-26,2027-07-27
+P1937,David,3,Female,General Medicine,Asthma,Observation,32871,North,2027-07-27,2027-07-28
+P1938,Emma,33,Female,Neurology,Diabetes,Therapy,57522,West,2027-07-28,2027-07-29
+P1939,Mary,6,Male,Cardiology,Fracture,Medication,71729,East,2027-07-29,2027-07-30
+P1940,Michael,50,Male,Orthopedics,Migraine,Therapy,99571,South,2027-07-30,2027-07-31
+P1941,James,10,Female,Oncology,Cancer,Therapy,51696,South,2027-07-31,2027-08-01
+P1942,John,5,Male,Oncology,Diabetes,Chemotherapy,80854,South,2027-08-01,2027-08-02
+P1943,James,23,Male,Cardiology,Diabetes,Medication,97274,North,2027-08-02,2027-08-03
+P1944,Olivia,10,Female,Pediatrics,Migraine,Chemotherapy,96910,East,2027-08-03,2027-08-04
+P1945,Michael,44,Male,Oncology,Migraine,Surgery,27215,South,2027-08-04,2027-08-05
+P1946,John,2,Male,Orthopedics,Cancer,Surgery,28105,West,2027-08-05,2027-08-06
+P1947,Sophia,13,Male,General Medicine,Cancer,Medication,31674,West,2027-08-06,2027-08-07
+P1948,James,40,Female,General Medicine,Asthma,Chemotherapy,10456,East,2027-08-07,2027-08-08
+P1949,Emma,2,Male,Cardiology,Cancer,Surgery,76873,East,2027-08-08,2027-08-09
+P1950,Isabella,84,Female,General Medicine,Cancer,Chemotherapy,69752,East,2027-08-09,2027-08-10
+P1951,Olivia,65,Male,Cardiology,Flu,Therapy,62449,West,2027-08-10,2027-08-11
+P1952,Olivia,63,Male,Oncology,Fracture,Therapy,63146,East,2027-08-11,2027-08-12
+P1953,John,73,Female,Cardiology,Hypertension,Therapy,70517,South,2027-08-12,2027-08-13
+P1954,Sophia,17,Female,Oncology,Cancer,Therapy,63537,North,2027-08-13,2027-08-14
+P1955,David,9,Female,Cardiology,Covid-19,Therapy,90318,West,2027-08-14,2027-08-15
+P1956,James,75,Male,Cardiology,Hypertension,Medication,7048,North,2027-08-15,2027-08-16
+P1957,Alex,15,Male,Oncology,Covid-19,Chemotherapy,73794,West,2027-08-16,2027-08-17
+P1958,David,24,Female,Cardiology,Flu,Chemotherapy,23677,South,2027-08-17,2027-08-18
+P1959,Olivia,38,Male,Pediatrics,Asthma,Therapy,24522,North,2027-08-18,2027-08-19
+P1960,Olivia,35,Male,Pediatrics,Asthma,Surgery,6042,South,2027-08-19,2027-08-20
+P1961,Mary,49,Female,Pediatrics,Cancer,Medication,91512,South,2027-08-20,2027-08-21
+P1962,John,69,Male,Cardiology,Hypertension,Surgery,96820,West,2027-08-21,2027-08-22
+P1963,Isabella,62,Male,General Medicine,Diabetes,Chemotherapy,60928,South,2027-08-22,2027-08-23
+P1964,Sophia,60,Female,Orthopedics,Diabetes,Therapy,23240,South,2027-08-23,2027-08-24
+P1965,Alex,50,Female,Pediatrics,Flu,Therapy,59853,West,2027-08-24,2027-08-25
+P1966,David,78,Female,Oncology,Asthma,Observation,90853,East,2027-08-25,2027-08-26
+P1967,James,75,Male,Neurology,Hypertension,Observation,57032,West,2027-08-26,2027-08-27
+P1968,John,9,Female,Neurology,Fracture,Therapy,16552,South,2027-08-27,2027-08-28
+P1969,James,34,Female,Oncology,Flu,Surgery,47576,West,2027-08-28,2027-08-29
+P1970,Michael,76,Female,Oncology,Cancer,Medication,53920,South,2027-08-29,2027-08-30
+P1971,Mary,35,Male,Oncology,Diabetes,Surgery,1171,North,2027-08-30,2027-08-31
+P1972,Sophia,1,Female,Cardiology,Fracture,Surgery,663,East,2027-08-31,2027-09-01
+P1973,Mary,40,Female,Orthopedics,Covid-19,Chemotherapy,41924,North,2027-09-01,2027-09-02
+P1974,Olivia,64,Female,Pediatrics,Covid-19,Surgery,54244,North,2027-09-02,2027-09-03
+P1975,Mary,22,Male,Oncology,Flu,Surgery,70831,East,2027-09-03,2027-09-04
+P1976,Alex,60,Female,Cardiology,Cancer,Chemotherapy,11134,North,2027-09-04,2027-09-05
+P1977,Olivia,64,Male,Oncology,Asthma,Chemotherapy,5298,North,2027-09-05,2027-09-06
+P1978,David,72,Female,General Medicine,Asthma,Chemotherapy,22920,South,2027-09-06,2027-09-07
+P1979,James,11,Male,Orthopedics,Asthma,Chemotherapy,29800,East,2027-09-07,2027-09-08
+P1980,David,14,Male,General Medicine,Fracture,Chemotherapy,90381,West,2027-09-08,2027-09-09
+P1981,Michael,60,Male,General Medicine,Covid-19,Medication,11249,South,2027-09-09,2027-09-10
+P1982,Olivia,30,Female,Oncology,Hypertension,Observation,25621,East,2027-09-10,2027-09-11
+P1983,Olivia,35,Male,Neurology,Flu,Observation,37987,North,2027-09-11,2027-09-12
+P1984,Sophia,85,Female,Pediatrics,Migraine,Medication,94447,North,2027-09-12,2027-09-13
+P1985,Olivia,37,Male,Cardiology,Flu,Medication,33861,South,2027-09-13,2027-09-14
+P1986,James,5,Female,General Medicine,Fracture,Surgery,21723,South,2027-09-14,2027-09-15
+P1987,Alex,83,Female,Oncology,Hypertension,Medication,73430,East,2027-09-15,2027-09-16
+P1988,Michael,78,Female,General Medicine,Flu,Observation,14556,South,2027-09-16,2027-09-17
+P1989,Sophia,26,Male,Cardiology,Fracture,Therapy,28880,South,2027-09-17,2027-09-18
+P1990,Isabella,62,Male,Orthopedics,Asthma,Therapy,26535,East,2027-09-18,2027-09-19
+P1991,James,4,Male,Cardiology,Fracture,Therapy,31120,South,2027-09-19,2027-09-20
+P1992,Alex,89,Female,Cardiology,Flu,Surgery,20377,East,2027-09-20,2027-09-21
+P1993,Mary,42,Female,Pediatrics,Covid-19,Observation,55816,South,2027-09-21,2027-09-22
+P1994,David,89,Female,Neurology,Flu,Chemotherapy,64541,South,2027-09-22,2027-09-23
+P1995,Michael,18,Female,General Medicine,Diabetes,Chemotherapy,53852,South,2027-09-23,2027-09-24
+P1996,Emma,40,Male,Neurology,Migraine,Therapy,31411,North,2027-09-24,2027-09-25
+P1997,James,72,Male,Orthopedics,Fracture,Surgery,33284,South,2027-09-25,2027-09-26
+P1998,David,39,Male,General Medicine,Cancer,Therapy,3691,East,2027-09-26,2027-09-27
+P1999,John,14,Male,Neurology,Diabetes,Medication,33660,North,2027-09-27,2027-09-28
+P2000,David,32,Female,Orthopedics,Flu,Medication,91036,North,2027-09-28,2027-09-29
+P2001,David,51,Female,Oncology,Fracture,Surgery,65141,South,2027-09-29,2027-09-30
+P2002,Isabella,38,Female,Pediatrics,Migraine,Surgery,50223,West,2027-09-30,2027-10-01
+P2003,Isabella,23,Male,Orthopedics,Asthma,Surgery,4131,North,2027-10-01,2027-10-02
+P2004,Olivia,63,Male,Neurology,Migraine,Surgery,6672,East,2027-10-02,2027-10-03
+P2005,Alex,15,Male,Cardiology,Diabetes,Therapy,42580,South,2027-10-03,2027-10-04
+P2006,Olivia,25,Female,General Medicine,Cancer,Surgery,89597,East,2027-10-04,2027-10-05
+P2007,James,17,Male,Pediatrics,Covid-19,Surgery,90853,West,2027-10-05,2027-10-06
+P2008,Olivia,66,Female,Neurology,Diabetes,Surgery,20781,South,2027-10-06,2027-10-07
+P2009,Emma,78,Female,Oncology,Hypertension,Medication,29171,East,2027-10-07,2027-10-08
+P2010,Emma,53,Male,Pediatrics,Asthma,Observation,51931,East,2027-10-08,2027-10-09
+P2011,James,51,Female,Orthopedics,Covid-19,Medication,91400,South,2027-10-09,2027-10-10
+P2012,James,39,Female,Neurology,Flu,Medication,93461,West,2027-10-10,2027-10-11
+P2013,Michael,51,Female,Cardiology,Flu,Medication,29102,North,2027-10-11,2027-10-12
+P2014,Olivia,70,Male,Cardiology,Asthma,Observation,89289,North,2027-10-12,2027-10-13
+P2015,Emma,6,Male,Oncology,Fracture,Observation,51899,South,2027-10-13,2027-10-14
+P2016,Sophia,67,Male,Cardiology,Cancer,Medication,23972,South,2027-10-14,2027-10-15
+P2017,Sophia,7,Female,Cardiology,Covid-19,Surgery,49730,South,2027-10-15,2027-10-16
+P2018,Isabella,51,Male,General Medicine,Migraine,Medication,74116,South,2027-10-16,2027-10-17
+P2019,Michael,72,Male,Oncology,Hypertension,Medication,7599,West,2027-10-17,2027-10-18
+P2020,Sophia,42,Female,Pediatrics,Flu,Chemotherapy,25931,East,2027-10-18,2027-10-19
+P2021,Michael,64,Female,Neurology,Cancer,Chemotherapy,56992,East,2027-10-19,2027-10-20
+P2022,John,15,Female,Cardiology,Cancer,Medication,97222,West,2027-10-20,2027-10-21
+P2023,Emma,29,Female,General Medicine,Cancer,Observation,48184,South,2027-10-21,2027-10-22
+P2024,Olivia,33,Male,Cardiology,Fracture,Medication,30611,North,2027-10-22,2027-10-23
+P2025,Michael,27,Male,Oncology,Asthma,Therapy,64436,South,2027-10-23,2027-10-24
+P2026,Michael,36,Male,Oncology,Fracture,Medication,23114,East,2027-10-24,2027-10-25
+P2027,Alex,29,Female,Cardiology,Flu,Medication,92760,South,2027-10-25,2027-10-26
+P2028,Olivia,38,Female,Orthopedics,Fracture,Therapy,42491,East,2027-10-26,2027-10-27
+P2029,John,57,Female,Oncology,Migraine,Medication,70976,South,2027-10-27,2027-10-28
+P2030,Alex,27,Female,Neurology,Flu,Medication,61420,North,2027-10-28,2027-10-29
+P2031,James,55,Female,Pediatrics,Fracture,Medication,94794,East,2027-10-29,2027-10-30
+P2032,Isabella,33,Male,Orthopedics,Asthma,Chemotherapy,64030,South,2027-10-30,2027-10-31
+P2033,Emma,68,Female,Orthopedics,Hypertension,Surgery,36724,West,2027-10-31,2027-11-01
+P2034,Mary,86,Female,Pediatrics,Cancer,Chemotherapy,8288,South,2027-11-01,2027-11-02
+P2035,Olivia,66,Male,Cardiology,Migraine,Surgery,28582,North,2027-11-02,2027-11-03
+P2036,Mary,10,Female,Cardiology,Hypertension,Surgery,90070,West,2027-11-03,2027-11-04
+P2037,James,5,Male,Neurology,Diabetes,Therapy,77316,North,2027-11-04,2027-11-05
+P2038,Olivia,74,Female,Cardiology,Migraine,Medication,84088,South,2027-11-05,2027-11-06
+P2039,John,38,Male,Orthopedics,Asthma,Medication,17031,West,2027-11-06,2027-11-07
+P2040,Alex,13,Male,Orthopedics,Migraine,Surgery,88840,East,2027-11-07,2027-11-08
+P2041,Michael,31,Female,Oncology,Asthma,Therapy,94939,West,2027-11-08,2027-11-09
+P2042,Alex,47,Male,Orthopedics,Hypertension,Chemotherapy,45357,West,2027-11-09,2027-11-10
+P2043,Mary,88,Female,Pediatrics,Migraine,Therapy,10642,South,2027-11-10,2027-11-11
+P2044,Olivia,52,Female,Oncology,Fracture,Therapy,48855,East,2027-11-11,2027-11-12
+P2045,David,56,Female,Cardiology,Cancer,Surgery,10366,East,2027-11-12,2027-11-13
+P2046,Emma,15,Female,Cardiology,Covid-19,Chemotherapy,70567,West,2027-11-13,2027-11-14
+P2047,Isabella,29,Female,Cardiology,Hypertension,Chemotherapy,64527,West,2027-11-14,2027-11-15
+P2048,Michael,8,Female,Cardiology,Asthma,Surgery,58406,West,2027-11-15,2027-11-16
+P2049,Mary,5,Female,Neurology,Hypertension,Chemotherapy,28638,East,2027-11-16,2027-11-17
+P2050,Emma,29,Male,Oncology,Asthma,Chemotherapy,93101,West,2027-11-17,2027-11-18
+P2051,James,47,Female,Oncology,Hypertension,Medication,30456,North,2027-11-18,2027-11-19
+P2052,Michael,68,Female,Neurology,Fracture,Medication,76795,South,2027-11-19,2027-11-20
+P2053,Emma,76,Male,Orthopedics,Hypertension,Chemotherapy,5939,South,2027-11-20,2027-11-21
+P2054,Olivia,45,Female,Orthopedics,Migraine,Medication,47741,South,2027-11-21,2027-11-22
+P2055,James,2,Female,Pediatrics,Hypertension,Chemotherapy,43033,West,2027-11-22,2027-11-23
+P2056,John,27,Male,General Medicine,Hypertension,Surgery,28770,South,2027-11-23,2027-11-24
+P2057,Isabella,36,Female,Orthopedics,Cancer,Surgery,79315,West,2027-11-24,2027-11-25
+P2058,Mary,36,Female,Oncology,Diabetes,Therapy,39779,South,2027-11-25,2027-11-26
+P2059,Sophia,26,Female,Cardiology,Diabetes,Surgery,24388,East,2027-11-26,2027-11-27
+P2060,David,43,Female,Orthopedics,Hypertension,Chemotherapy,18130,West,2027-11-27,2027-11-28
+P2061,Sophia,27,Male,Orthopedics,Cancer,Medication,61563,West,2027-11-28,2027-11-29
+P2062,Mary,69,Female,Neurology,Hypertension,Medication,35644,South,2027-11-29,2027-11-30
+P2063,Michael,20,Female,Cardiology,Flu,Surgery,52661,East,2027-11-30,2027-12-01
+P2064,Mary,11,Female,Pediatrics,Cancer,Chemotherapy,97218,East,2027-12-01,2027-12-02
+P2065,Mary,74,Female,Pediatrics,Migraine,Observation,91574,North,2027-12-02,2027-12-03
+P2066,Olivia,38,Female,Pediatrics,Migraine,Therapy,77860,South,2027-12-03,2027-12-04
+P2067,Alex,6,Male,Orthopedics,Fracture,Chemotherapy,51479,North,2027-12-04,2027-12-05
+P2068,David,72,Male,Pediatrics,Covid-19,Surgery,98161,East,2027-12-05,2027-12-06
+P2069,John,23,Male,Oncology,Fracture,Observation,7479,West,2027-12-06,2027-12-07
+P2070,John,47,Male,Pediatrics,Hypertension,Medication,26689,East,2027-12-07,2027-12-08
+P2071,Emma,46,Female,Pediatrics,Asthma,Surgery,43100,South,2027-12-08,2027-12-09
+P2072,John,12,Male,Oncology,Diabetes,Therapy,60060,North,2027-12-09,2027-12-10
+P2073,David,13,Female,Neurology,Hypertension,Observation,78540,West,2027-12-10,2027-12-11
+P2074,Emma,62,Female,Cardiology,Hypertension,Observation,62058,East,2027-12-11,2027-12-12
+P2075,Emma,82,Male,Neurology,Flu,Surgery,86705,West,2027-12-12,2027-12-13
+P2076,Michael,89,Female,Oncology,Fracture,Chemotherapy,7410,West,2027-12-13,2027-12-14
+P2077,Alex,60,Female,Oncology,Asthma,Surgery,58213,West,2027-12-14,2027-12-15
+P2078,Sophia,43,Male,Cardiology,Asthma,Observation,47357,West,2027-12-15,2027-12-16
+P2079,James,76,Female,Neurology,Asthma,Medication,35464,West,2027-12-16,2027-12-17
+P2080,Michael,68,Male,Cardiology,Flu,Therapy,86167,East,2027-12-17,2027-12-18
+P2081,Isabella,5,Female,Pediatrics,Cancer,Medication,25727,West,2027-12-18,2027-12-19
+P2082,Alex,37,Male,General Medicine,Diabetes,Observation,6478,East,2027-12-19,2027-12-20
+P2083,Alex,72,Female,Pediatrics,Covid-19,Medication,88027,East,2027-12-20,2027-12-21
+P2084,Alex,31,Female,General Medicine,Hypertension,Chemotherapy,17653,West,2027-12-21,2027-12-22
+P2085,Mary,9,Male,Oncology,Covid-19,Surgery,60265,North,2027-12-22,2027-12-23
+P2086,Isabella,51,Female,Pediatrics,Cancer,Observation,99584,South,2027-12-23,2027-12-24
+P2087,Michael,29,Female,Neurology,Hypertension,Therapy,39571,West,2027-12-24,2027-12-25
+P2088,Isabella,78,Female,General Medicine,Migraine,Therapy,70019,South,2027-12-25,2027-12-26
+P2089,Sophia,40,Female,Pediatrics,Covid-19,Chemotherapy,10003,East,2027-12-26,2027-12-27
+P2090,Olivia,41,Male,Orthopedics,Covid-19,Medication,61203,North,2027-12-27,2027-12-28
+P2091,Isabella,86,Female,General Medicine,Hypertension,Medication,64879,East,2027-12-28,2027-12-29
+P2092,Alex,11,Male,Cardiology,Hypertension,Therapy,95957,North,2027-12-29,2027-12-30
+P2093,Sophia,23,Male,Oncology,Asthma,Observation,58366,East,2027-12-30,2027-12-31
+P2094,Olivia,1,Male,Oncology,Asthma,Medication,17405,North,2027-12-31,2028-01-01
+P2095,David,46,Female,Neurology,Flu,Observation,46338,East,2028-01-01,2028-01-02
+P2096,Olivia,21,Male,Pediatrics,Migraine,Therapy,58779,South,2028-01-02,2028-01-03
+P2097,David,36,Male,Pediatrics,Flu,Observation,89989,North,2028-01-03,2028-01-04
+P2098,John,54,Female,Cardiology,Fracture,Chemotherapy,27306,North,2028-01-04,2028-01-05
+P2099,Olivia,87,Female,Pediatrics,Migraine,Therapy,45500,North,2028-01-05,2028-01-06
+P2100,David,57,Female,Pediatrics,Asthma,Observation,22668,East,2028-01-06,2028-01-07
+P2101,James,1,Male,Cardiology,Asthma,Surgery,70619,North,2028-01-07,2028-01-08
+P2102,Alex,63,Male,Cardiology,Asthma,Chemotherapy,39214,South,2028-01-08,2028-01-09
+P2103,Mary,54,Male,Orthopedics,Diabetes,Observation,54593,East,2028-01-09,2028-01-10
+P2104,Olivia,55,Female,Oncology,Hypertension,Therapy,55919,South,2028-01-10,2028-01-11
+P2105,Emma,40,Male,Orthopedics,Covid-19,Observation,49645,East,2028-01-11,2028-01-12
+P2106,Isabella,15,Male,Cardiology,Covid-19,Surgery,77925,East,2028-01-12,2028-01-13
+P2107,David,21,Female,Oncology,Cancer,Medication,93449,East,2028-01-13,2028-01-14
+P2108,Michael,47,Female,Oncology,Covid-19,Observation,78311,East,2028-01-14,2028-01-15
+P2109,David,73,Female,General Medicine,Asthma,Therapy,2961,South,2028-01-15,2028-01-16
+P2110,Olivia,53,Female,Oncology,Migraine,Surgery,14791,South,2028-01-16,2028-01-17
+P2111,David,9,Male,General Medicine,Migraine,Medication,47304,East,2028-01-17,2028-01-18
+P2112,Sophia,74,Female,Oncology,Flu,Observation,77471,North,2028-01-18,2028-01-19
+P2113,Michael,52,Male,General Medicine,Migraine,Medication,93971,East,2028-01-19,2028-01-20
+P2114,Olivia,57,Female,Neurology,Cancer,Observation,65446,East,2028-01-20,2028-01-21
+P2115,Mary,26,Male,Oncology,Migraine,Observation,99489,East,2028-01-21,2028-01-22
+P2116,Sophia,41,Female,Orthopedics,Flu,Chemotherapy,84580,West,2028-01-22,2028-01-23
+P2117,Michael,35,Female,General Medicine,Diabetes,Medication,61832,West,2028-01-23,2028-01-24
+P2118,Isabella,63,Male,General Medicine,Covid-19,Medication,78294,North,2028-01-24,2028-01-25
+P2119,Emma,25,Male,Oncology,Covid-19,Surgery,31341,West,2028-01-25,2028-01-26
+P2120,Isabella,75,Male,Oncology,Flu,Observation,49258,South,2028-01-26,2028-01-27
+P2121,David,38,Female,General Medicine,Asthma,Observation,76772,West,2028-01-27,2028-01-28
+P2122,David,2,Female,Cardiology,Migraine,Chemotherapy,38143,South,2028-01-28,2028-01-29
+P2123,John,7,Female,Pediatrics,Flu,Medication,50908,South,2028-01-29,2028-01-30
+P2124,Michael,82,Female,Oncology,Migraine,Surgery,44450,South,2028-01-30,2028-01-31
+P2125,David,34,Male,Oncology,Flu,Medication,57349,West,2028-01-31,2028-02-01
+P2126,John,17,Female,Neurology,Asthma,Therapy,28544,South,2028-02-01,2028-02-02
+P2127,Isabella,43,Female,Pediatrics,Fracture,Surgery,16497,West,2028-02-02,2028-02-03
+P2128,John,59,Female,Orthopedics,Covid-19,Therapy,80251,West,2028-02-03,2028-02-04
+P2129,Isabella,51,Male,Oncology,Migraine,Surgery,99105,East,2028-02-04,2028-02-05
+P2130,Olivia,54,Female,Oncology,Fracture,Chemotherapy,24411,North,2028-02-05,2028-02-06
+P2131,David,24,Female,Oncology,Fracture,Observation,56033,East,2028-02-06,2028-02-07
+P2132,Sophia,25,Female,Pediatrics,Covid-19,Medication,83066,South,2028-02-07,2028-02-08
+P2133,Isabella,71,Male,Neurology,Hypertension,Surgery,95370,West,2028-02-08,2028-02-09
+P2134,Emma,52,Female,General Medicine,Migraine,Observation,15071,West,2028-02-09,2028-02-10
+P2135,Sophia,70,Male,General Medicine,Fracture,Observation,94963,South,2028-02-10,2028-02-11
+P2136,Sophia,88,Male,Cardiology,Flu,Therapy,58441,West,2028-02-11,2028-02-12
+P2137,Isabella,33,Male,Cardiology,Hypertension,Chemotherapy,58505,West,2028-02-12,2028-02-13
+P2138,David,49,Female,Oncology,Covid-19,Chemotherapy,86750,North,2028-02-13,2028-02-14
+P2139,Alex,29,Male,Neurology,Covid-19,Therapy,59212,East,2028-02-14,2028-02-15
+P2140,Mary,63,Male,General Medicine,Diabetes,Observation,44041,South,2028-02-15,2028-02-16
+P2141,John,22,Male,Pediatrics,Diabetes,Therapy,23887,South,2028-02-16,2028-02-17
+P2142,David,26,Male,Pediatrics,Hypertension,Observation,94480,East,2028-02-17,2028-02-18
+P2143,Olivia,28,Male,Neurology,Hypertension,Chemotherapy,49408,North,2028-02-18,2028-02-19
+P2144,John,85,Female,Cardiology,Migraine,Observation,85957,West,2028-02-19,2028-02-20
+P2145,Isabella,49,Female,Pediatrics,Migraine,Observation,13557,East,2028-02-20,2028-02-21
+P2146,Emma,71,Female,Orthopedics,Cancer,Chemotherapy,64528,East,2028-02-21,2028-02-22
+P2147,Alex,81,Male,Neurology,Covid-19,Therapy,56231,South,2028-02-22,2028-02-23
+P2148,Mary,84,Female,Orthopedics,Flu,Surgery,25358,West,2028-02-23,2028-02-24
+P2149,David,49,Male,Orthopedics,Hypertension,Observation,49189,West,2028-02-24,2028-02-25
+P2150,Emma,20,Male,Cardiology,Covid-19,Medication,45138,West,2028-02-25,2028-02-26
+P2151,Michael,86,Female,General Medicine,Asthma,Medication,92098,East,2028-02-26,2028-02-27
+P2152,Alex,63,Female,Neurology,Covid-19,Therapy,46986,East,2028-02-27,2028-02-28
+P2153,Sophia,61,Male,General Medicine,Diabetes,Observation,21067,North,2028-02-28,2028-02-29
+P2154,Alex,49,Male,Oncology,Fracture,Observation,30239,North,2028-02-29,2028-03-01
+P2155,James,71,Female,Pediatrics,Cancer,Surgery,58304,South,2028-03-01,2028-03-02
+P2156,Emma,1,Female,Pediatrics,Hypertension,Surgery,4254,South,2028-03-02,2028-03-03
+P2157,James,13,Female,Neurology,Diabetes,Medication,27544,East,2028-03-03,2028-03-04
+P2158,James,87,Male,Cardiology,Diabetes,Medication,67760,West,2028-03-04,2028-03-05
+P2159,David,51,Male,Pediatrics,Diabetes,Medication,67412,West,2028-03-05,2028-03-06
+P2160,Alex,56,Male,Pediatrics,Covid-19,Medication,9206,South,2028-03-06,2028-03-07
+P2161,David,83,Female,General Medicine,Cancer,Observation,9394,West,2028-03-07,2028-03-08
+P2162,Olivia,62,Male,Pediatrics,Diabetes,Medication,18537,North,2028-03-08,2028-03-09
+P2163,David,32,Male,Cardiology,Migraine,Surgery,84486,West,2028-03-09,2028-03-10
+P2164,Emma,30,Male,Pediatrics,Hypertension,Observation,82442,South,2028-03-10,2028-03-11
+P2165,Mary,29,Female,Pediatrics,Migraine,Chemotherapy,52112,West,2028-03-11,2028-03-12
+P2166,Olivia,49,Female,Orthopedics,Migraine,Therapy,30225,North,2028-03-12,2028-03-13
+P2167,Mary,45,Male,Cardiology,Flu,Surgery,6426,East,2028-03-13,2028-03-14
+P2168,Alex,30,Female,Pediatrics,Hypertension,Therapy,9996,West,2028-03-14,2028-03-15
+P2169,Sophia,16,Male,Oncology,Cancer,Chemotherapy,56947,East,2028-03-15,2028-03-16
+P2170,Michael,40,Female,Oncology,Hypertension,Chemotherapy,30306,North,2028-03-16,2028-03-17
+P2171,James,19,Female,Cardiology,Hypertension,Medication,88699,South,2028-03-17,2028-03-18
+P2172,Emma,18,Female,Cardiology,Hypertension,Medication,41821,North,2028-03-18,2028-03-19
+P2173,Mary,1,Female,Pediatrics,Hypertension,Chemotherapy,65595,South,2028-03-19,2028-03-20
+P2174,Michael,78,Female,Pediatrics,Flu,Observation,23156,North,2028-03-20,2028-03-21
+P2175,John,47,Male,Cardiology,Migraine,Observation,55647,West,2028-03-21,2028-03-22
+P2176,David,66,Female,General Medicine,Fracture,Surgery,91896,North,2028-03-22,2028-03-23
+P2177,James,38,Female,General Medicine,Fracture,Therapy,50166,South,2028-03-23,2028-03-24
+P2178,Mary,51,Female,Cardiology,Covid-19,Observation,82868,South,2028-03-24,2028-03-25
+P2179,Olivia,63,Male,Cardiology,Fracture,Observation,39287,North,2028-03-25,2028-03-26
+P2180,Emma,4,Female,General Medicine,Hypertension,Chemotherapy,63446,West,2028-03-26,2028-03-27
+P2181,David,1,Male,General Medicine,Diabetes,Therapy,22227,East,2028-03-27,2028-03-28
+P2182,Isabella,8,Male,Oncology,Hypertension,Chemotherapy,95581,South,2028-03-28,2028-03-29
+P2183,Michael,29,Female,Orthopedics,Asthma,Therapy,68556,South,2028-03-29,2028-03-30
+P2184,Emma,55,Male,General Medicine,Flu,Chemotherapy,3581,East,2028-03-30,2028-03-31
+P2185,Mary,3,Male,General Medicine,Fracture,Chemotherapy,34696,North,2028-03-31,2028-04-01
+P2186,Sophia,32,Female,Neurology,Flu,Medication,37235,West,2028-04-01,2028-04-02
+P2187,Olivia,10,Male,Oncology,Covid-19,Medication,80602,North,2028-04-02,2028-04-03
+P2188,John,74,Male,Oncology,Covid-19,Observation,80078,East,2028-04-03,2028-04-04
+P2189,Isabella,83,Female,Pediatrics,Covid-19,Medication,25998,North,2028-04-04,2028-04-05
+P2190,James,34,Male,Orthopedics,Flu,Observation,77365,South,2028-04-05,2028-04-06
+P2191,Emma,87,Female,Orthopedics,Covid-19,Observation,32156,East,2028-04-06,2028-04-07
+P2192,Isabella,55,Female,Cardiology,Asthma,Therapy,68195,West,2028-04-07,2028-04-08
+P2193,Sophia,32,Male,Neurology,Asthma,Observation,38400,West,2028-04-08,2028-04-09
+P2194,Mary,50,Female,Pediatrics,Covid-19,Observation,85399,South,2028-04-09,2028-04-10
+P2195,Olivia,7,Female,Orthopedics,Covid-19,Observation,48201,North,2028-04-10,2028-04-11
+P2196,David,8,Male,General Medicine,Migraine,Medication,19533,South,2028-04-11,2028-04-12
+P2197,Michael,65,Female,General Medicine,Covid-19,Medication,11305,West,2028-04-12,2028-04-13
+P2198,Mary,57,Male,General Medicine,Diabetes,Surgery,36351,West,2028-04-13,2028-04-14
+P2199,Alex,67,Male,Pediatrics,Flu,Chemotherapy,27332,North,2028-04-14,2028-04-15
+P2200,John,88,Female,Oncology,Asthma,Therapy,63937,West,2028-04-15,2028-04-16
+P2201,John,87,Female,Oncology,Fracture,Surgery,14444,South,2028-04-16,2028-04-17
+P2202,David,59,Male,Orthopedics,Asthma,Observation,20373,South,2028-04-17,2028-04-18
+P2203,Olivia,72,Male,Oncology,Flu,Observation,40872,South,2028-04-18,2028-04-19
+P2204,Mary,54,Female,Pediatrics,Hypertension,Surgery,89964,East,2028-04-19,2028-04-20
+P2205,Mary,67,Female,Cardiology,Hypertension,Therapy,15879,West,2028-04-20,2028-04-21
+P2206,Sophia,51,Male,Cardiology,Flu,Observation,37251,West,2028-04-21,2028-04-22
+P2207,James,8,Female,Oncology,Cancer,Observation,90322,South,2028-04-22,2028-04-23
+P2208,Alex,34,Male,Neurology,Flu,Medication,5610,East,2028-04-23,2028-04-24
+P2209,Michael,35,Female,Cardiology,Hypertension,Chemotherapy,54841,South,2028-04-24,2028-04-25
+P2210,Olivia,88,Male,Orthopedics,Flu,Observation,12587,West,2028-04-25,2028-04-26
+P2211,Emma,78,Male,Orthopedics,Fracture,Chemotherapy,24262,East,2028-04-26,2028-04-27
+P2212,James,32,Female,Oncology,Cancer,Chemotherapy,83117,South,2028-04-27,2028-04-28
+P2213,Michael,46,Female,Orthopedics,Diabetes,Chemotherapy,10096,North,2028-04-28,2028-04-29
+P2214,Isabella,16,Female,General Medicine,Flu,Observation,18813,South,2028-04-29,2028-04-30
+P2215,Alex,68,Female,General Medicine,Diabetes,Observation,67049,West,2028-04-30,2028-05-01
+P2216,Michael,37,Female,Orthopedics,Migraine,Chemotherapy,24205,North,2028-05-01,2028-05-02
+P2217,Mary,54,Female,Oncology,Hypertension,Surgery,67864,West,2028-05-02,2028-05-03
+P2218,Olivia,85,Female,Cardiology,Hypertension,Chemotherapy,73945,South,2028-05-03,2028-05-04
+P2219,Isabella,14,Male,Cardiology,Fracture,Medication,79145,East,2028-05-04,2028-05-05
+P2220,Michael,55,Male,Neurology,Hypertension,Observation,2523,West,2028-05-05,2028-05-06
+P2221,David,48,Male,Pediatrics,Covid-19,Therapy,60296,West,2028-05-06,2028-05-07
+P2222,John,82,Male,Neurology,Cancer,Observation,80573,West,2028-05-07,2028-05-08
+P2223,Emma,7,Female,Oncology,Flu,Chemotherapy,92697,North,2028-05-08,2028-05-09
+P2224,Sophia,74,Male,Oncology,Diabetes,Observation,64929,North,2028-05-09,2028-05-10
+P2225,Olivia,7,Female,Oncology,Fracture,Chemotherapy,62127,East,2028-05-10,2028-05-11
+P2226,Olivia,33,Male,Pediatrics,Cancer,Therapy,34348,West,2028-05-11,2028-05-12
+P2227,Sophia,23,Female,Cardiology,Cancer,Therapy,38304,East,2028-05-12,2028-05-13
+P2228,Emma,85,Male,Orthopedics,Migraine,Therapy,15879,East,2028-05-13,2028-05-14
+P2229,Mary,19,Female,General Medicine,Diabetes,Medication,60164,West,2028-05-14,2028-05-15
+P2230,Emma,19,Female,Neurology,Migraine,Medication,28266,South,2028-05-15,2028-05-16
+P2231,James,36,Male,Neurology,Diabetes,Chemotherapy,68599,West,2028-05-16,2028-05-17
+P2232,Emma,29,Male,Cardiology,Fracture,Medication,36560,South,2028-05-17,2028-05-18
+P2233,John,60,Female,Pediatrics,Covid-19,Surgery,95233,South,2028-05-18,2028-05-19
+P2234,Michael,82,Female,Neurology,Hypertension,Therapy,69622,West,2028-05-19,2028-05-20
+P2235,David,2,Male,Pediatrics,Diabetes,Therapy,16587,West,2028-05-20,2028-05-21
+P2236,Sophia,1,Female,Neurology,Fracture,Chemotherapy,49368,West,2028-05-21,2028-05-22
+P2237,Mary,47,Male,Oncology,Cancer,Medication,23725,South,2028-05-22,2028-05-23
+P2238,Olivia,69,Female,Orthopedics,Migraine,Therapy,95786,North,2028-05-23,2028-05-24
+P2239,Mary,20,Male,Cardiology,Asthma,Observation,7143,West,2028-05-24,2028-05-25
+P2240,Sophia,11,Male,Pediatrics,Asthma,Medication,93559,North,2028-05-25,2028-05-26
+P2241,Isabella,2,Female,Cardiology,Flu,Observation,37227,South,2028-05-26,2028-05-27
+P2242,John,67,Male,Oncology,Diabetes,Therapy,11505,South,2028-05-27,2028-05-28
+P2243,John,87,Female,Oncology,Diabetes,Therapy,66197,East,2028-05-28,2028-05-29
+P2244,Emma,12,Female,General Medicine,Covid-19,Observation,16529,East,2028-05-29,2028-05-30
+P2245,Sophia,20,Female,Cardiology,Fracture,Therapy,14726,North,2028-05-30,2028-05-31
+P2246,Alex,5,Male,Pediatrics,Migraine,Medication,64146,South,2028-05-31,2028-06-01
+P2247,Isabella,37,Female,Pediatrics,Cancer,Surgery,61103,West,2028-06-01,2028-06-02
+P2248,Sophia,38,Male,Oncology,Fracture,Surgery,29231,West,2028-06-02,2028-06-03
+P2249,Mary,9,Male,General Medicine,Cancer,Surgery,69426,North,2028-06-03,2028-06-04
+P2250,James,53,Male,General Medicine,Hypertension,Therapy,6497,East,2028-06-04,2028-06-05
+P2251,Sophia,44,Female,Neurology,Covid-19,Chemotherapy,56006,North,2028-06-05,2028-06-06
+P2252,Isabella,86,Female,Pediatrics,Covid-19,Medication,78729,North,2028-06-06,2028-06-07
+P2253,Sophia,24,Male,Cardiology,Covid-19,Medication,50315,East,2028-06-07,2028-06-08
+P2254,Sophia,81,Male,General Medicine,Hypertension,Therapy,42592,West,2028-06-08,2028-06-09
+P2255,Emma,74,Male,Oncology,Asthma,Medication,63039,West,2028-06-09,2028-06-10
+P2256,Alex,30,Male,Cardiology,Fracture,Therapy,66577,South,2028-06-10,2028-06-11
+P2257,Isabella,59,Male,General Medicine,Asthma,Surgery,22317,East,2028-06-11,2028-06-12
+P2258,John,87,Female,Pediatrics,Flu,Medication,38361,South,2028-06-12,2028-06-13
+P2259,David,81,Female,General Medicine,Diabetes,Chemotherapy,13928,North,2028-06-13,2028-06-14
+P2260,Alex,81,Male,Pediatrics,Flu,Therapy,44434,West,2028-06-14,2028-06-15
+P2261,Alex,14,Female,General Medicine,Covid-19,Medication,10758,North,2028-06-15,2028-06-16
+P2262,James,9,Female,Neurology,Diabetes,Observation,58275,North,2028-06-16,2028-06-17
+P2263,David,40,Female,Oncology,Asthma,Observation,82080,West,2028-06-17,2028-06-18
+P2264,Alex,66,Female,General Medicine,Migraine,Chemotherapy,95447,West,2028-06-18,2028-06-19
+P2265,Mary,25,Male,Neurology,Migraine,Chemotherapy,5969,East,2028-06-19,2028-06-20
+P2266,John,73,Male,Oncology,Flu,Observation,29354,West,2028-06-20,2028-06-21
+P2267,Alex,22,Female,Neurology,Cancer,Therapy,6756,South,2028-06-21,2028-06-22
+P2268,John,4,Male,Cardiology,Cancer,Medication,76756,West,2028-06-22,2028-06-23
+P2269,Emma,26,Female,Pediatrics,Asthma,Observation,34437,North,2028-06-23,2028-06-24
+P2270,Sophia,58,Male,Oncology,Flu,Chemotherapy,99634,North,2028-06-24,2028-06-25
+P2271,Isabella,29,Male,General Medicine,Asthma,Medication,2151,East,2028-06-25,2028-06-26
+P2272,Emma,87,Male,General Medicine,Fracture,Therapy,50788,North,2028-06-26,2028-06-27
+P2273,John,37,Male,Orthopedics,Fracture,Observation,85230,South,2028-06-27,2028-06-28
+P2274,Alex,75,Female,General Medicine,Diabetes,Chemotherapy,25551,East,2028-06-28,2028-06-29
+P2275,David,70,Male,Pediatrics,Fracture,Observation,27886,West,2028-06-29,2028-06-30
+P2276,John,18,Female,Pediatrics,Fracture,Therapy,75554,West,2028-06-30,2028-07-01
+P2277,Alex,85,Female,General Medicine,Cancer,Chemotherapy,16684,West,2028-07-01,2028-07-02
+P2278,Michael,42,Male,Oncology,Flu,Medication,34287,North,2028-07-02,2028-07-03
+P2279,James,41,Female,Neurology,Diabetes,Observation,22121,North,2028-07-03,2028-07-04
+P2280,Mary,38,Female,Orthopedics,Cancer,Medication,76064,South,2028-07-04,2028-07-05
+P2281,Mary,34,Female,Pediatrics,Cancer,Surgery,78484,West,2028-07-05,2028-07-06
+P2282,Olivia,17,Female,Orthopedics,Migraine,Therapy,60292,South,2028-07-06,2028-07-07
+P2283,Olivia,37,Male,Orthopedics,Flu,Observation,45753,West,2028-07-07,2028-07-08
+P2284,Emma,25,Male,Pediatrics,Hypertension,Chemotherapy,34551,East,2028-07-08,2028-07-09
+P2285,James,76,Female,Neurology,Asthma,Therapy,50311,South,2028-07-09,2028-07-10
+P2286,Isabella,87,Female,Neurology,Cancer,Surgery,30947,South,2028-07-10,2028-07-11
+P2287,Mary,86,Female,Pediatrics,Cancer,Chemotherapy,84430,North,2028-07-11,2028-07-12
+P2288,Olivia,85,Female,General Medicine,Covid-19,Therapy,30754,North,2028-07-12,2028-07-13
+P2289,James,27,Female,Oncology,Covid-19,Therapy,84545,South,2028-07-13,2028-07-14
+P2290,Sophia,57,Female,Oncology,Flu,Observation,57918,East,2028-07-14,2028-07-15
+P2291,Isabella,31,Male,General Medicine,Hypertension,Surgery,14972,North,2028-07-15,2028-07-16
+P2292,John,6,Male,Orthopedics,Covid-19,Observation,3971,West,2028-07-16,2028-07-17
+P2293,James,40,Female,Oncology,Hypertension,Medication,96304,South,2028-07-17,2028-07-18
+P2294,David,12,Female,General Medicine,Covid-19,Chemotherapy,8829,North,2028-07-18,2028-07-19
+P2295,Olivia,53,Male,Orthopedics,Cancer,Surgery,35365,North,2028-07-19,2028-07-20
+P2296,John,71,Female,Oncology,Covid-19,Therapy,47350,East,2028-07-20,2028-07-21
+P2297,John,10,Male,Oncology,Migraine,Therapy,54720,South,2028-07-21,2028-07-22
+P2298,Olivia,45,Female,General Medicine,Flu,Medication,94308,West,2028-07-22,2028-07-23
+P2299,Michael,17,Male,Oncology,Fracture,Therapy,6897,East,2028-07-23,2028-07-24
+P2300,Michael,26,Female,Neurology,Cancer,Chemotherapy,98409,South,2028-07-24,2028-07-25
+P2301,Mary,85,Female,Neurology,Flu,Observation,36025,South,2028-07-25,2028-07-26
+P2302,Olivia,62,Female,Neurology,Asthma,Surgery,53572,North,2028-07-26,2028-07-27
+P2303,Olivia,46,Female,General Medicine,Cancer,Chemotherapy,90606,South,2028-07-27,2028-07-28
+P2304,Mary,64,Female,Oncology,Cancer,Medication,84320,West,2028-07-28,2028-07-29
+P2305,Mary,2,Male,Orthopedics,Diabetes,Chemotherapy,85030,North,2028-07-29,2028-07-30
+P2306,Emma,54,Female,Oncology,Hypertension,Medication,23784,North,2028-07-30,2028-07-31
+P2307,Isabella,65,Female,Orthopedics,Fracture,Chemotherapy,61830,West,2028-07-31,2028-08-01
+P2308,Alex,51,Male,Oncology,Flu,Therapy,83869,East,2028-08-01,2028-08-02
+P2309,Mary,53,Male,Neurology,Cancer,Therapy,25622,West,2028-08-02,2028-08-03
+P2310,Alex,36,Male,Oncology,Migraine,Medication,71053,North,2028-08-03,2028-08-04
+P2311,David,26,Female,Oncology,Hypertension,Chemotherapy,82406,North,2028-08-04,2028-08-05
+P2312,Isabella,29,Male,Neurology,Migraine,Chemotherapy,95288,North,2028-08-05,2028-08-06
+P2313,Isabella,21,Male,General Medicine,Hypertension,Observation,63312,West,2028-08-06,2028-08-07
+P2314,James,11,Male,General Medicine,Diabetes,Observation,8499,South,2028-08-07,2028-08-08
+P2315,Emma,40,Female,Oncology,Fracture,Surgery,22936,South,2028-08-08,2028-08-09
+P2316,Michael,11,Female,Oncology,Cancer,Therapy,43463,East,2028-08-09,2028-08-10
+P2317,Isabella,36,Male,Orthopedics,Flu,Medication,2596,South,2028-08-10,2028-08-11
+P2318,James,59,Female,Oncology,Fracture,Therapy,25779,South,2028-08-11,2028-08-12
+P2319,David,39,Male,Cardiology,Migraine,Chemotherapy,26701,North,2028-08-12,2028-08-13
+P2320,Olivia,54,Male,Orthopedics,Diabetes,Therapy,20215,North,2028-08-13,2028-08-14
+P2321,James,55,Female,General Medicine,Covid-19,Observation,29809,West,2028-08-14,2028-08-15
+P2322,Isabella,24,Male,Pediatrics,Asthma,Chemotherapy,15578,North,2028-08-15,2028-08-16
+P2323,Michael,22,Female,General Medicine,Cancer,Therapy,57114,North,2028-08-16,2028-08-17
+P2324,Mary,69,Male,General Medicine,Covid-19,Surgery,5605,East,2028-08-17,2028-08-18
+P2325,Mary,56,Female,Oncology,Fracture,Observation,95348,South,2028-08-18,2028-08-19
+P2326,James,33,Female,Oncology,Asthma,Observation,3339,North,2028-08-19,2028-08-20
+P2327,Sophia,36,Male,Pediatrics,Fracture,Therapy,69420,South,2028-08-20,2028-08-21
+P2328,Michael,20,Female,Oncology,Hypertension,Chemotherapy,44119,North,2028-08-21,2028-08-22
+P2329,Olivia,83,Male,Oncology,Diabetes,Chemotherapy,43321,South,2028-08-22,2028-08-23
+P2330,Sophia,81,Male,General Medicine,Cancer,Observation,13993,South,2028-08-23,2028-08-24
+P2331,Michael,62,Female,Orthopedics,Flu,Chemotherapy,17569,North,2028-08-24,2028-08-25
+P2332,Emma,73,Female,Pediatrics,Asthma,Surgery,8031,West,2028-08-25,2028-08-26
+P2333,Olivia,26,Male,Cardiology,Diabetes,Medication,37551,North,2028-08-26,2028-08-27
+P2334,Michael,66,Female,General Medicine,Covid-19,Chemotherapy,8236,East,2028-08-27,2028-08-28
+P2335,Michael,73,Male,Cardiology,Flu,Surgery,8210,East,2028-08-28,2028-08-29
+P2336,Mary,73,Male,Cardiology,Covid-19,Chemotherapy,67655,South,2028-08-29,2028-08-30
+P2337,Emma,40,Male,Pediatrics,Hypertension,Observation,14475,South,2028-08-30,2028-08-31
+P2338,Michael,17,Male,Neurology,Asthma,Surgery,62924,West,2028-08-31,2028-09-01
+P2339,Emma,1,Female,Cardiology,Cancer,Observation,46103,West,2028-09-01,2028-09-02
+P2340,David,89,Male,Oncology,Covid-19,Therapy,23752,North,2028-09-02,2028-09-03
+P2341,Emma,61,Male,Cardiology,Fracture,Chemotherapy,81297,South,2028-09-03,2028-09-04
+P2342,Alex,43,Male,Neurology,Cancer,Chemotherapy,1931,South,2028-09-04,2028-09-05
+P2343,Olivia,42,Female,Orthopedics,Hypertension,Observation,75103,North,2028-09-05,2028-09-06
+P2344,Mary,25,Male,Neurology,Diabetes,Chemotherapy,37981,East,2028-09-06,2028-09-07
+P2345,Mary,39,Male,Orthopedics,Hypertension,Medication,93073,East,2028-09-07,2028-09-08
+P2346,Mary,35,Female,Oncology,Asthma,Chemotherapy,10057,South,2028-09-08,2028-09-09
+P2347,Mary,3,Male,Orthopedics,Flu,Surgery,75471,North,2028-09-09,2028-09-10
+P2348,Michael,44,Female,Neurology,Covid-19,Therapy,662,West,2028-09-10,2028-09-11
+P2349,Mary,51,Male,Cardiology,Migraine,Observation,35242,East,2028-09-11,2028-09-12
+P2350,Emma,12,Female,Oncology,Diabetes,Surgery,20175,North,2028-09-12,2028-09-13
+P2351,Alex,19,Male,Orthopedics,Flu,Surgery,74497,West,2028-09-13,2028-09-14
+P2352,James,44,Male,Neurology,Fracture,Surgery,17515,South,2028-09-14,2028-09-15
+P2353,John,59,Female,General Medicine,Flu,Therapy,50557,West,2028-09-15,2028-09-16
+P2354,Isabella,49,Male,Cardiology,Diabetes,Observation,33091,South,2028-09-16,2028-09-17
+P2355,James,61,Male,Orthopedics,Cancer,Observation,94083,North,2028-09-17,2028-09-18
+P2356,James,17,Male,Pediatrics,Covid-19,Therapy,10333,East,2028-09-18,2028-09-19
+P2357,Emma,74,Female,Cardiology,Flu,Medication,8396,East,2028-09-19,2028-09-20
+P2358,Mary,57,Female,General Medicine,Diabetes,Surgery,33472,North,2028-09-20,2028-09-21
+P2359,Michael,55,Female,Oncology,Fracture,Observation,50233,North,2028-09-21,2028-09-22
+P2360,Emma,47,Male,Oncology,Flu,Therapy,42300,South,2028-09-22,2028-09-23
+P2361,Michael,12,Female,General Medicine,Fracture,Therapy,96544,West,2028-09-23,2028-09-24
+P2362,John,62,Male,Neurology,Asthma,Surgery,5847,East,2028-09-24,2028-09-25
+P2363,David,80,Male,Oncology,Cancer,Therapy,59563,West,2028-09-25,2028-09-26
+P2364,Isabella,88,Male,Oncology,Asthma,Chemotherapy,96350,North,2028-09-26,2028-09-27
+P2365,David,83,Male,General Medicine,Asthma,Surgery,3143,South,2028-09-27,2028-09-28
+P2366,Emma,8,Male,Pediatrics,Fracture,Observation,41285,East,2028-09-28,2028-09-29
+P2367,Mary,21,Female,Neurology,Fracture,Surgery,19181,North,2028-09-29,2028-09-30
+P2368,Isabella,81,Female,General Medicine,Cancer,Medication,50526,East,2028-09-30,2028-10-01
+P2369,James,87,Male,Oncology,Covid-19,Surgery,16392,West,2028-10-01,2028-10-02
+P2370,Sophia,80,Male,Orthopedics,Diabetes,Surgery,47799,South,2028-10-02,2028-10-03
+P2371,Alex,70,Female,Oncology,Fracture,Medication,17573,East,2028-10-03,2028-10-04
+P2372,Olivia,72,Female,Oncology,Hypertension,Surgery,31182,South,2028-10-04,2028-10-05
+P2373,Sophia,25,Male,Cardiology,Hypertension,Therapy,98298,East,2028-10-05,2028-10-06
+P2374,Mary,82,Male,Pediatrics,Fracture,Observation,97394,West,2028-10-06,2028-10-07
+P2375,Emma,89,Male,Pediatrics,Diabetes,Observation,14789,North,2028-10-07,2028-10-08
+P2376,James,12,Male,Pediatrics,Flu,Chemotherapy,8427,East,2028-10-08,2028-10-09
+P2377,Emma,15,Male,Oncology,Diabetes,Observation,48830,North,2028-10-09,2028-10-10
+P2378,Mary,59,Female,Orthopedics,Asthma,Observation,67207,West,2028-10-10,2028-10-11
+P2379,David,26,Female,General Medicine,Cancer,Medication,77954,West,2028-10-11,2028-10-12
+P2380,Isabella,26,Female,Cardiology,Cancer,Surgery,65928,South,2028-10-12,2028-10-13
+P2381,Sophia,47,Female,Cardiology,Fracture,Surgery,51101,North,2028-10-13,2028-10-14
+P2382,Michael,32,Male,Oncology,Hypertension,Therapy,77965,South,2028-10-14,2028-10-15
+P2383,James,10,Male,Orthopedics,Fracture,Surgery,3039,North,2028-10-15,2028-10-16
+P2384,Isabella,16,Female,Neurology,Asthma,Medication,23169,North,2028-10-16,2028-10-17
+P2385,Isabella,71,Male,General Medicine,Hypertension,Therapy,71468,East,2028-10-17,2028-10-18
+P2386,James,17,Male,Pediatrics,Diabetes,Therapy,21144,South,2028-10-18,2028-10-19
+P2387,John,23,Female,Neurology,Fracture,Chemotherapy,19245,West,2028-10-19,2028-10-20
+P2388,Isabella,26,Male,Oncology,Cancer,Surgery,28728,South,2028-10-20,2028-10-21
+P2389,David,85,Female,Oncology,Covid-19,Medication,35021,North,2028-10-21,2028-10-22
+P2390,John,86,Male,Oncology,Flu,Observation,97739,North,2028-10-22,2028-10-23
+P2391,Alex,7,Male,Oncology,Hypertension,Medication,27428,South,2028-10-23,2028-10-24
+P2392,David,14,Female,Orthopedics,Flu,Medication,18822,East,2028-10-24,2028-10-25
+P2393,David,79,Female,General Medicine,Covid-19,Medication,58214,West,2028-10-25,2028-10-26
+P2394,Emma,7,Male,General Medicine,Flu,Therapy,88396,East,2028-10-26,2028-10-27
+P2395,Emma,9,Male,Oncology,Diabetes,Chemotherapy,62792,South,2028-10-27,2028-10-28
+P2396,John,48,Female,General Medicine,Migraine,Therapy,29555,South,2028-10-28,2028-10-29
+P2397,Alex,72,Female,Neurology,Flu,Medication,43391,West,2028-10-29,2028-10-30
+P2398,Alex,59,Male,Oncology,Diabetes,Observation,82412,South,2028-10-30,2028-10-31
+P2399,Isabella,87,Male,Neurology,Migraine,Therapy,7088,North,2028-10-31,2028-11-01
+P2400,Michael,82,Female,Orthopedics,Migraine,Medication,91036,South,2028-11-01,2028-11-02
+P2401,Mary,39,Male,Pediatrics,Hypertension,Observation,6804,West,2028-11-02,2028-11-03
+P2402,Alex,18,Male,Neurology,Covid-19,Surgery,7845,East,2028-11-03,2028-11-04
+P2403,John,59,Female,Oncology,Cancer,Surgery,29800,South,2028-11-04,2028-11-05
+P2404,Mary,17,Female,Cardiology,Fracture,Medication,24759,East,2028-11-05,2028-11-06
+P2405,James,14,Male,Neurology,Cancer,Chemotherapy,91506,East,2028-11-06,2028-11-07
+P2406,Sophia,31,Female,Neurology,Asthma,Chemotherapy,89053,North,2028-11-07,2028-11-08
+P2407,Michael,24,Female,Oncology,Diabetes,Medication,15852,West,2028-11-08,2028-11-09
+P2408,Michael,60,Female,General Medicine,Covid-19,Chemotherapy,33865,East,2028-11-09,2028-11-10
+P2409,Olivia,45,Male,Cardiology,Hypertension,Chemotherapy,19946,North,2028-11-10,2028-11-11
+P2410,Emma,3,Female,Pediatrics,Diabetes,Chemotherapy,2836,South,2028-11-11,2028-11-12
+P2411,Alex,37,Male,Cardiology,Covid-19,Therapy,62532,East,2028-11-12,2028-11-13
+P2412,Emma,43,Male,Pediatrics,Diabetes,Observation,75915,East,2028-11-13,2028-11-14
+P2413,David,40,Male,Orthopedics,Covid-19,Medication,98352,South,2028-11-14,2028-11-15
+P2414,Emma,55,Male,General Medicine,Fracture,Surgery,99376,South,2028-11-15,2028-11-16
+P2415,Isabella,87,Female,Orthopedics,Covid-19,Chemotherapy,8021,North,2028-11-16,2028-11-17
+P2416,Isabella,39,Male,Neurology,Covid-19,Medication,72207,South,2028-11-17,2028-11-18
+P2417,Mary,15,Male,Neurology,Asthma,Therapy,23981,South,2028-11-18,2028-11-19
+P2418,John,4,Male,General Medicine,Asthma,Therapy,18974,West,2028-11-19,2028-11-20
+P2419,Alex,86,Female,Orthopedics,Hypertension,Chemotherapy,47260,East,2028-11-20,2028-11-21
+P2420,Alex,25,Female,Cardiology,Fracture,Observation,56218,South,2028-11-21,2028-11-22
+P2421,Isabella,13,Female,Orthopedics,Cancer,Surgery,45129,West,2028-11-22,2028-11-23
+P2422,John,82,Female,Pediatrics,Migraine,Observation,45732,North,2028-11-23,2028-11-24
+P2423,Mary,33,Female,Oncology,Hypertension,Surgery,87044,North,2028-11-24,2028-11-25
+P2424,David,16,Male,Neurology,Cancer,Surgery,67669,West,2028-11-25,2028-11-26
+P2425,Olivia,42,Male,Cardiology,Cancer,Medication,51169,North,2028-11-26,2028-11-27
+P2426,Michael,66,Female,Neurology,Covid-19,Surgery,78521,South,2028-11-27,2028-11-28
+P2427,Olivia,55,Male,Orthopedics,Covid-19,Surgery,69684,North,2028-11-28,2028-11-29
+P2428,Isabella,42,Female,General Medicine,Flu,Therapy,48445,South,2028-11-29,2028-11-30
+P2429,Olivia,34,Male,Cardiology,Diabetes,Observation,13640,South,2028-11-30,2028-12-01
+P2430,Michael,30,Male,Oncology,Covid-19,Observation,83957,South,2028-12-01,2028-12-02
+P2431,David,13,Male,General Medicine,Diabetes,Therapy,14857,North,2028-12-02,2028-12-03
+P2432,Sophia,13,Female,Oncology,Cancer,Chemotherapy,69173,South,2028-12-03,2028-12-04
+P2433,James,18,Female,Orthopedics,Covid-19,Medication,66133,South,2028-12-04,2028-12-05
+P2434,Mary,32,Male,Pediatrics,Covid-19,Observation,77443,South,2028-12-05,2028-12-06
+P2435,Emma,39,Female,General Medicine,Hypertension,Chemotherapy,96611,North,2028-12-06,2028-12-07
+P2436,Michael,46,Female,General Medicine,Fracture,Therapy,78758,West,2028-12-07,2028-12-08
+P2437,Mary,29,Male,Orthopedics,Cancer,Medication,13424,West,2028-12-08,2028-12-09
+P2438,David,62,Male,Cardiology,Hypertension,Therapy,69786,East,2028-12-09,2028-12-10
+P2439,Isabella,62,Male,Oncology,Diabetes,Chemotherapy,93769,South,2028-12-10,2028-12-11
+P2440,Olivia,57,Male,Orthopedics,Migraine,Observation,74571,South,2028-12-11,2028-12-12
+P2441,James,16,Female,General Medicine,Diabetes,Observation,57826,South,2028-12-12,2028-12-13
+P2442,David,56,Male,Neurology,Cancer,Surgery,90523,West,2028-12-13,2028-12-14
+P2443,John,10,Female,Neurology,Diabetes,Therapy,31151,South,2028-12-14,2028-12-15
+P2444,Sophia,30,Male,General Medicine,Fracture,Surgery,70702,South,2028-12-15,2028-12-16
+P2445,Michael,25,Female,Cardiology,Covid-19,Therapy,49277,East,2028-12-16,2028-12-17
+P2446,Isabella,84,Male,General Medicine,Migraine,Observation,17494,East,2028-12-17,2028-12-18
+P2447,John,5,Male,Neurology,Migraine,Therapy,67763,West,2028-12-18,2028-12-19
+P2448,John,65,Male,Pediatrics,Asthma,Therapy,60134,South,2028-12-19,2028-12-20
+P2449,Sophia,49,Male,General Medicine,Asthma,Medication,11300,East,2028-12-20,2028-12-21
+P2450,David,3,Male,General Medicine,Hypertension,Chemotherapy,38323,West,2028-12-21,2028-12-22
+P2451,Sophia,45,Male,Pediatrics,Covid-19,Medication,64378,North,2028-12-22,2028-12-23
+P2452,Alex,14,Female,Cardiology,Migraine,Medication,19208,East,2028-12-23,2028-12-24
+P2453,David,30,Female,Orthopedics,Diabetes,Surgery,13319,West,2028-12-24,2028-12-25
+P2454,David,68,Female,Neurology,Cancer,Therapy,75405,West,2028-12-25,2028-12-26
+P2455,Emma,18,Male,Neurology,Asthma,Chemotherapy,64370,South,2028-12-26,2028-12-27
+P2456,Mary,62,Female,Oncology,Migraine,Observation,9783,West,2028-12-27,2028-12-28
+P2457,John,37,Male,Orthopedics,Migraine,Therapy,31073,West,2028-12-28,2028-12-29
+P2458,Olivia,25,Female,Orthopedics,Cancer,Therapy,79207,West,2028-12-29,2028-12-30
+P2459,Michael,48,Male,Orthopedics,Asthma,Medication,31433,West,2028-12-30,2028-12-31
+P2460,Alex,65,Male,Orthopedics,Hypertension,Chemotherapy,6274,South,2028-12-31,2029-01-01
+P2461,Alex,53,Female,Neurology,Diabetes,Surgery,72555,West,2029-01-01,2029-01-02
+P2462,Michael,79,Female,General Medicine,Covid-19,Observation,11483,North,2029-01-02,2029-01-03
+P2463,James,73,Female,General Medicine,Diabetes,Observation,96968,West,2029-01-03,2029-01-04
+P2464,Sophia,15,Male,Pediatrics,Covid-19,Medication,96834,West,2029-01-04,2029-01-05
+P2465,James,49,Female,General Medicine,Cancer,Observation,18633,North,2029-01-05,2029-01-06
+P2466,James,88,Male,Oncology,Diabetes,Therapy,15439,East,2029-01-06,2029-01-07
+P2467,Emma,68,Female,Cardiology,Covid-19,Therapy,1281,South,2029-01-07,2029-01-08
+P2468,Mary,12,Female,Cardiology,Hypertension,Medication,57200,South,2029-01-08,2029-01-09
+P2469,Michael,59,Female,Oncology,Fracture,Surgery,28124,East,2029-01-09,2029-01-10
+P2470,John,37,Male,Orthopedics,Migraine,Therapy,7323,West,2029-01-10,2029-01-11
+P2471,Michael,61,Female,Pediatrics,Diabetes,Surgery,18989,West,2029-01-11,2029-01-12
+P2472,John,43,Male,Neurology,Diabetes,Surgery,40461,East,2029-01-12,2029-01-13
+P2473,Olivia,70,Female,Oncology,Migraine,Observation,29618,West,2029-01-13,2029-01-14
+P2474,Mary,39,Male,General Medicine,Cancer,Therapy,82316,East,2029-01-14,2029-01-15
+P2475,Emma,56,Female,General Medicine,Covid-19,Observation,22763,West,2029-01-15,2029-01-16
+P2476,Isabella,63,Male,Neurology,Flu,Medication,14065,West,2029-01-16,2029-01-17
+P2477,Michael,46,Male,Cardiology,Diabetes,Therapy,20854,North,2029-01-17,2029-01-18
+P2478,Isabella,88,Male,Oncology,Asthma,Medication,43451,East,2029-01-18,2029-01-19
+P2479,Michael,11,Male,Orthopedics,Hypertension,Observation,91679,South,2029-01-19,2029-01-20
+P2480,Michael,62,Male,Pediatrics,Flu,Observation,24148,West,2029-01-20,2029-01-21
+P2481,David,77,Male,Cardiology,Hypertension,Observation,51229,South,2029-01-21,2029-01-22
+P2482,Mary,25,Male,Pediatrics,Hypertension,Therapy,42471,South,2029-01-22,2029-01-23
+P2483,Michael,71,Male,Orthopedics,Covid-19,Observation,19158,South,2029-01-23,2029-01-24
+P2484,John,52,Female,General Medicine,Fracture,Medication,21753,North,2029-01-24,2029-01-25
+P2485,Emma,4,Female,Oncology,Migraine,Surgery,64666,North,2029-01-25,2029-01-26
+P2486,Alex,59,Female,Orthopedics,Covid-19,Therapy,49063,East,2029-01-26,2029-01-27
+P2487,Isabella,72,Male,Cardiology,Asthma,Chemotherapy,26890,West,2029-01-27,2029-01-28
+P2488,Olivia,20,Male,General Medicine,Asthma,Medication,89164,West,2029-01-28,2029-01-29
+P2489,Emma,63,Male,Orthopedics,Cancer,Therapy,52078,West,2029-01-29,2029-01-30
+P2490,Mary,54,Female,General Medicine,Fracture,Observation,79525,West,2029-01-30,2029-01-31
+P2491,Michael,74,Male,General Medicine,Fracture,Chemotherapy,33158,East,2029-01-31,2029-02-01
+P2492,Mary,57,Female,Pediatrics,Migraine,Chemotherapy,7352,West,2029-02-01,2029-02-02
+P2493,Sophia,41,Male,Pediatrics,Cancer,Therapy,95486,West,2029-02-02,2029-02-03
+P2494,Michael,3,Female,Cardiology,Diabetes,Observation,3051,East,2029-02-03,2029-02-04
+P2495,Isabella,6,Female,Orthopedics,Flu,Medication,72447,North,2029-02-04,2029-02-05
+P2496,Michael,5,Female,Oncology,Migraine,Medication,61501,West,2029-02-05,2029-02-06
+P2497,James,5,Male,Neurology,Hypertension,Surgery,49659,North,2029-02-06,2029-02-07
+P2498,Mary,54,Female,Orthopedics,Fracture,Observation,52207,North,2029-02-07,2029-02-08
+P2499,Michael,47,Male,General Medicine,Flu,Surgery,33743,West,2029-02-08,2029-02-09
